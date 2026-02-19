@@ -1,0 +1,10 @@
+# ninja log v7
+35	1231	7916352117046673	CMakeFiles/lsd2.dir/src/lsd.cpp.obj	93440fc0320545e1
+13	1365	7916352116831266	CMakeFiles/lsd2.dir/src/dating.cpp.obj	b6e16ee0daa50963
+69	1679	7916352117386673	CMakeFiles/lsd2.dir/src/readData.cpp.obj	c67a3e9bed0e735f
+46	1710	7916352117156684	CMakeFiles/lsd2.dir/src/options.cpp.obj	a4e79d01e25f153e
+57	1735	7916352117266672	CMakeFiles/lsd2.dir/src/outliers.cpp.obj	1b62cd0a8247d637
+2	1866	7916352116715391	CMakeFiles/lsd2.dir/src/confidence_interval.cpp.obj	4f134c599019bbc
+24	1936	7916352116936683	CMakeFiles/lsd2.dir/src/estimate_root.cpp.obj	cca9f1df0d3b484
+82	3033	7916352117516676	CMakeFiles/lsd2.dir/src/utils.cpp.obj	5ecc0d119ef94b6e
+3034	3176	7916352147032085	lsd2.exe	713e8696d75ada06
