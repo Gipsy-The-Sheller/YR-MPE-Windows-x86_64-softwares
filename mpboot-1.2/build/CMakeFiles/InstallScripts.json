@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Codes/mpboot-1.2/build/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/pllrepo/src/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/ncl/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/whtest/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/sprng/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/zlib-1.2.7/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/vectorclass/cmake_install.cmake",
+		"E:/Codes/mpboot-1.2/build/model/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+"D:\Program Files\mingw64\bin\ar.exe" qc libsprng.a CMakeFiles/sprng.dir/lcg64.c.obj CMakeFiles/sprng.dir/makeseed.c.obj CMakeFiles/sprng.dir/memory.c.obj CMakeFiles/sprng.dir/store.c.obj "CMakeFiles/sprng.dir/primes-lcg64.c.obj" CMakeFiles/sprng.dir/checkid.c.obj
+"D:\Program Files\mingw64\bin\ranlib.exe" libsprng.a

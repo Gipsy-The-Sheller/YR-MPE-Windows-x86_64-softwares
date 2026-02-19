@@ -1,0 +1,1 @@
+ pllrepo/src/libpll.a ncl/libncl.a whtest/libwhtest.a "zlib-1.2.7/libzlibstatic.a" sprng/libsprng.a vectorclass/libvectorclass.a model/libmodel.a -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

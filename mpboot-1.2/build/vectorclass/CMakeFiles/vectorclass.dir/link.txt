@@ -1,0 +1,2 @@
+"D:\Program Files\mingw64\bin\ar.exe" qc libvectorclass.a CMakeFiles/vectorclass.dir/instrset_detect.cpp.obj
+"D:\Program Files\mingw64\bin\ranlib.exe" libvectorclass.a

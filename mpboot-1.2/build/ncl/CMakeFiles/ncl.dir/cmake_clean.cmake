@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ncl.dir/nxsassumptionsblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsassumptionsblock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsblock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxscharactersblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxscharactersblock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsdatablock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsdatablock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsdiscretedatum.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsdiscretedatum.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsdiscretematrix.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsdiscretematrix.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsdistancedatum.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsdistancedatum.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsdistancesblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsdistancesblock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsemptyblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsemptyblock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsexception.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsexception.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsreader.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsreader.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxssetreader.cpp.obj"
+  "CMakeFiles/ncl.dir/nxssetreader.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxsstring.cpp.obj"
+  "CMakeFiles/ncl.dir/nxsstring.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxstaxablock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxstaxablock.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxstoken.cpp.obj"
+  "CMakeFiles/ncl.dir/nxstoken.cpp.obj.d"
+  "CMakeFiles/ncl.dir/nxstreesblock.cpp.obj"
+  "CMakeFiles/ncl.dir/nxstreesblock.cpp.obj.d"
+  "libncl.a"
+  "libncl.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ncl.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
