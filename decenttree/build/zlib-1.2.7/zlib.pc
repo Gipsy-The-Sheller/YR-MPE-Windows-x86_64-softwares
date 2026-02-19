@@ -1,0 +1,13 @@
+prefix=C:/Program Files (x86)/decenttree
+exec_prefix=C:/Program Files (x86)/decenttree
+libdir=C:/Program Files (x86)/decenttree/lib
+sharedlibdir=C:/Program Files (x86)/decenttree/lib
+includedir=C:/Program Files (x86)/decenttree/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.7
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

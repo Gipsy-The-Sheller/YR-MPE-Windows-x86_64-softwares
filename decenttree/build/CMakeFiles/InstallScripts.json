@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Codes/decenttree/build/cmake_install.cmake",
+		"E:/Codes/decenttree/build/zlib-1.2.7/cmake_install.cmake",
+		"E:/Codes/decenttree/build/vectorclass/cmake_install.cmake",
+		"E:/Codes/decenttree/build/example/cmake_install.cmake",
+		"E:/Codes/decenttree/build/pydecenttree/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

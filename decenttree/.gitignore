@@ -1,0 +1,12 @@
+.cache
+.cproject
+.settings
+.project
+.vs
+x64
+Debug
+decentTree.vcxproj.user
+james_notes.txt
+pydecenttree/dist
+pydecenttree/pydecenttree.egg-info
+copy_to_iqtree2_dev.sh
