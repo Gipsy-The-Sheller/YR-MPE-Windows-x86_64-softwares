@@ -1,3 +1,14 @@
+Included softwares:
+
+- MrBayes-3.2.7-MPI-BEAGLE3
+- PhyloBayes-MPI 1.8c
+- PhyloBayes-MPI 1.9
+- MPBoot 1.2
+- LSD2
+- DecentTree
+
+* * *
+
 FAQs
 
 1. Why not support Win32? 
