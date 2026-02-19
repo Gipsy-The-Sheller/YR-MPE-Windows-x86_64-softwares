@@ -1,0 +1,19 @@
+LIBRARY hmsbeagle64.dll
+EXPORTS
+;
+
+LIBRARY hmsbeagle-cpu64-31.dll
+EXPORTS
+;
+
+LIBRARY hmsbeagle-cpu-sse64-31.dll
+EXPORTS
+;
+
+LIBRARY hmsbeagle-cuda64-31.dll
+EXPORTS
+;
+
+LIBRARY hmsbeagle-opencl64-31.dll
+EXPORTS
+;

@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Codes\\MrBayes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\bayes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\bayes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\command.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\command.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\bayes.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\bayes.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\configure||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:configure||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\Makefile.in||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile.in||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\Makefile.am||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Makefile.am||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\Makefile.in||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Makefile.in||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\Makefile.am||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile.am||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\src\\beagle.def||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\beagle.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\INSTALL||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:INSTALL||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Codes\\MrBayes\\aclocal.m4||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aclocal.m4||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bayes.h",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\bayes.h",
+              "RelativeDocumentMoniker": "src\\bayes.h",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\bayes.h",
+              "RelativeToolTip": "src\\bayes.h",
+              "ViewState": "AgIAAO0GAAAAAAAAAAAtwPgGAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T18:45:01.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bayes.c",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\bayes.c",
+              "RelativeDocumentMoniker": "src\\bayes.c",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\bayes.c",
+              "RelativeToolTip": "src\\bayes.c",
+              "ViewState": "AgIAAFQCAAAAAAAAAAAtwGACAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-04T18:43:04.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Makefile.am",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\Makefile.am",
+              "RelativeDocumentMoniker": "src\\Makefile.am",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\Makefile.am",
+              "RelativeToolTip": "src\\Makefile.am",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T18:42:26.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Makefile.in",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\Makefile.in",
+              "RelativeDocumentMoniker": "src\\Makefile.in",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\Makefile.in",
+              "RelativeToolTip": "src\\Makefile.in",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T18:42:14.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "command.h",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\command.h",
+              "RelativeDocumentMoniker": "src\\command.h",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\command.h",
+              "RelativeToolTip": "src\\command.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T18:40:24.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "command.c",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\command.c",
+              "RelativeDocumentMoniker": "src\\command.c",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\command.c",
+              "RelativeToolTip": "src\\command.c",
+              "ViewState": "AgIAAJswAAAAAAAAAAAtwKowAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-04T18:34:16.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Makefile.am",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\Makefile.am",
+              "RelativeDocumentMoniker": "Makefile.am",
+              "ToolTip": "E:\\Codes\\MrBayes\\Makefile.am",
+              "RelativeToolTip": "Makefile.am",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T17:39:17.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "beagle.def",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\src\\beagle.def",
+              "RelativeDocumentMoniker": "src\\beagle.def",
+              "ToolTip": "E:\\Codes\\MrBayes\\src\\beagle.def",
+              "RelativeToolTip": "src\\beagle.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2025-12-04T17:34:33.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "aclocal.m4",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\aclocal.m4",
+              "RelativeDocumentMoniker": "aclocal.m4",
+              "ToolTip": "E:\\Codes\\MrBayes\\aclocal.m4",
+              "RelativeToolTip": "aclocal.m4",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T17:20:35.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "configure",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\configure",
+              "RelativeDocumentMoniker": "configure",
+              "ToolTip": "E:\\Codes\\MrBayes\\configure",
+              "RelativeToolTip": "configure",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAO0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T17:20:13.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Makefile.in",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\Makefile.in",
+              "RelativeDocumentMoniker": "Makefile.in",
+              "ToolTip": "E:\\Codes\\MrBayes\\Makefile.in",
+              "RelativeToolTip": "Makefile.in",
+              "ViewState": "AgIAAKcCAAAAAAAAAAAnwLYCAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T17:19:59.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "INSTALL",
+              "DocumentMoniker": "E:\\Codes\\MrBayes\\INSTALL",
+              "RelativeDocumentMoniker": "INSTALL",
+              "ToolTip": "E:\\Codes\\MrBayes\\INSTALL",
+              "RelativeToolTip": "INSTALL",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-04T17:19:26.805Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

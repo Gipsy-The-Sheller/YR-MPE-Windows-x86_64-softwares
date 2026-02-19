@@ -1,0 +1,963 @@
+      Logging screen output to file "log.txt"
+      Defining charset called 'subset1'
+      Defining partition called 'Names'
+      Setting Names as the partition (does not divide up characters).
+      Setting model defaults
+      Seed (for generating default start values) = 159716188
+      Setting Nst to 6 for partition 1
+      Setting Rates to Invgamma for partition 1
+      Successfully set likelihood model parameters
+      Setting number of generations to 2000000
+      Setting print frequency to 1000
+      Setting sample frequency to 1000
+      Setting number of chains to 4
+      Setting number of runs to 2
+      Setting check-pointing ('Checkpoint') to yes
+      Setting check-pointing frequency to 5000
+      Setting chain output file names to "input.nex.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 8930400217
+      Seed = 649948729
+      Swapseed = 1767974080
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Revmat              1
+         Statefreq           2
+         Shape               3
+         Pinvar              4
+         Ratemultiplier      5
+         Topology            6
+         Brlens              7
+         ---------------------
+
+         1 --  Parameter  = Revmat
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+         2 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         3 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         4 --  Parameter  = Pinvar
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+
+         5 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         6 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         7 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.94 %   Dirichlet(Revmat)
+            0.94 %   Slider(Revmat)
+            0.94 %   Dirichlet(Pi)
+            0.94 %   Slider(Pi)
+            1.89 %   Multiplier(Alpha)
+            1.89 %   Slider(Pinvar)
+            9.43 %   ExtSPR(Tau,V)
+            9.43 %   ExtTBR(Tau,V)
+            5.66 %   NNI(Tau,V)
+            5.66 %   ParsSPR(Tau,V)
+            5.66 %   ParsTBR(Tau,V)
+           37.74 %   Multiplier(V)
+           13.21 %   Nodeslider(V)
+            5.66 %   TLMultiplier(V)
+
+      Division 1 has 570 unique site patterns
+      Initializing conditional likelihoods
+
+      Running benchmarks to automatically select fastest BEAGLE resource... 
+      Using BEAGLE v3.1.0 resource 0 for division 1:
+         Rsrc Name : CPU
+         Impl Name : CPU-4State-Single
+         Flags: PROCESSOR_CPU PRECISION_SINGLE COMPUTATION_SYNCH EIGEN_REAL
+                SCALING_MANUAL SCALERS_RAW VECTOR_NONE THREADING_CPP         MODEL STATES: 4
+      Initializing invariable-site conditional likelihoods
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -16540.640528 -- 102.567101
+         Chain 2 -- -16273.808877 -- 102.567101
+         Chain 3 -- -16660.938530 -- 102.567101
+         Chain 4 -- -16405.395093 -- 102.567101
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -16111.305721 -- 102.567101
+         Chain 2 -- -16466.177536 -- 102.567101
+         Chain 3 -- -16723.399045 -- 102.567101
+         Chain 4 -- -16587.387303 -- 102.567101
+
+
+      There are results from a previous run saved using the same filename(s).
+      Do you want to overwrite these results? (yes/no): 
+      Overwriting file "input.nex.mcmc"
+      Overwriting file "input.nex.run1.p"
+      Overwriting file "input.nex.run1.t"
+      Overwriting file "input.nex.run2.p"
+      Overwriting file "input.nex.run2.t"
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (2000000 generations requested):
+
+          0 -- [-16540.641] (-16273.809) (-16660.939) (-16405.395) * [-16111.306] (-16466.178) (-16723.399) (-16587.387) 
+       1000 -- [-9549.374] (-9667.200) (-9562.345) (-10135.690) * [-9446.862] (-9702.738) (-9856.303) (-9859.586) -- 0:33:19
+       2000 -- (-8689.003) [-8673.415] (-8713.230) (-8897.789) * [-8616.432] (-8786.005) (-8701.193) (-8678.363) -- 0:33:18
+       3000 -- [-8365.028] (-8474.511) (-8476.875) (-8530.725) * (-8369.091) (-8397.302) (-8381.123) [-8280.911] -- 0:33:17
+       4000 -- [-8266.562] (-8339.855) (-8337.558) (-8307.165) * (-8293.123) (-8211.506) (-8219.971) [-8124.480] -- 0:24:57
+       5000 -- (-8194.711) (-8250.764) [-8191.882] (-8254.652) * (-8236.150) (-8121.885) (-8167.094) [-8075.504] -- 0:26:36
+
+      Average standard deviation of split frequencies: 0.146508
+
+       6000 -- [-8092.165] (-8194.649) (-8088.503) (-8187.057) * (-8201.877) (-8087.624) (-8158.492) [-8071.759] -- 0:27:41
+       7000 -- [-8045.487] (-8161.776) (-8090.648) (-8091.658) * (-8197.504) [-8085.916] (-8151.873) (-8044.980) -- 0:23:43
+       8000 -- (-8036.454) (-8153.233) (-8069.047) [-8057.183] * (-8179.773) (-8066.169) (-8170.543) [-8040.409] -- 0:24:54
+       9000 -- [-8040.775] (-8138.592) (-8042.307) (-8031.982) * (-8161.200) (-8055.260) (-8163.703) [-8036.419] -- 0:25:48
+      10000 -- [-8030.575] (-8142.164) (-8062.557) (-8029.968) * (-8172.067) (-8075.828) (-8157.792) [-8034.470] -- 0:26:32
+
+      Average standard deviation of split frequencies: 0.104034
+
+      11000 -- (-8048.205) (-8130.050) [-8038.731] (-8041.800) * (-8081.986) (-8065.516) (-8172.226) [-8029.492] -- 0:27:07
+
+   Ctrl-C detected
+   Do you really want to stop the run (y/n)?   Mcmc run aborted
+      Setting sumt conformat to Figtree
+      Setting sumt contype to Allcompat
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.50
+      Summarizing trees in files "input.nex.run1.t" and "input.nex.run2.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 50 % of sampled trees
+      Writing statistics to files input.nex.<parts|tstat|vstat|trprobs|con>
+      Examining first file ...
+      Found one tree block in file "input.nex.run1.t" with 12 trees in last block
+      Expecting the same number of trees in the last tree block of all files
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read a total of 24 trees in 2 files (sampling 12 of them)
+         (Each file contained 12 trees of which 6 were sampled)
+      Overwriting file "input.nex.parts"
+      Overwriting file "input.nex.tstat"
+      Overwriting file "input.nex.vstat"
+      Overwriting file "input.nex.con.tre"
+      Overwriting file "input.nex.trprobs"
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equal to (Minpartfreq) in at least one run. Minpartfreq is a parameter to  
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- EF108162_1_Rhinolophus_borneensis
+         2 -- EF108175_1_Rhinolophus_stheno
+         3 -- FJ185189_1_Rhinolophus_borneensis
+         4 -- FJ185207_1_Rhinolophus_megaphyllus
+         5 -- FJ185213_1_Rhinolophus_stheno
+         6 -- FJ489957_1_Rousettus_leschenaultii_isolate_YD02
+         7 -- HM134916_1_Rhinolophus_sinicus
+         8 -- HM134917_1_Rhinolophus_sinicus
+         9 -- JF327290_1_Pteropus_seychellensis_comoroensis_isolate_MT23
+        10 -- JN106271_1_Rhinolophus_euryotis_isolate_418
+        11 -- JN106272_1_Rhinolophus_celebensis
+        12 -- JN106276_1_Rhinolophus_euryotis_isolate_421
+        13 -- JN106277_1_Rhinolophus_celebensis
+        14 -- JN106304_1_Rhinolophus_arcuatus_voucher_CMNH_M127
+        15 -- JN106309_1_Rhinolophus_virgo
+        16 -- JN106310_1_Rhinolophus_subrufus_voucher_CMNH_3306
+        17 -- JN106312_1_Rhinolophus_arcuatus_voucher_CMNH_3280
+        18 -- JN106315_1_Rhinolophus_subrufus_arcuatus_voucher_CMNH_3281
+        19 -- JQ915621_1_Rhinolophus_virgo
+        20 -- JX502550_Rhinolophus_pearsonii
+        21 -- JX502551_Rhinolophus_pearsonii
+        22 -- MN790977_1_Rhinolophus_swinnyi_isolate_NgeliRsw4
+        23 -- MT586789_1_Rhinolophus_darlingi_isolate_CCGU200
+        24 -- MW711358_1_Rhinolophus_rouxii
+        25 -- MW711359_1_Rhinolophus_rouxii
+        26 -- MYTC21091
+        27 -- MYTC21100
+        28 -- MYTC21101
+        29 -- MYTC21143
+        30 -- MZ936302_1_Rhinolophus_simulator_voucher_MW_211
+        31 -- MZ936303_1_Rhinolophus_simulator_voucher_MW_268
+        32 -- MZ936304_1_Rhinolophus_darlingi_voucher_MW_434
+        33 -- ON640700_1_Rhinolophus_malayanus
+        34 -- ON640701_1_Rhinolophus_malayanus
+        35 -- OQ560331_1_Rhinolophus_acuminatus
+        36 -- OQ560338_1_Rhinolophus_acuminatus
+        37 -- OR028831_1_Rhinolophus_bocharicus_isolate_NMPpb6152
+        38 -- OR028832_1_Rhinolophus_bocharicus_isolate_NMPpb6183
+        39 -- PP706135_1_Rhinolophus_swinnyi
+        40 -- PQ727140_1_Rhinolophus_fumigatus_isolate_NMPpb5489
+        41 -- PQ727141_1_Rhinolophus_fumigatus_isolate_NMPpb5529
+        42 -- QF2110__Rhinolophus_affinis
+
+      Key to taxon bipartitions (saved to file "input.nex.parts"):
+
+       ID -- Partition
+      -------------------------------------------------
+        1 -- 
+        2 -- 
+        3 -- 
+        4 -- 
+        5 -- 
+        6 -- 
+        7 -- 
+        8 -- 
+        9 -- 
+       10 -- 
+       11 -- 
+       12 -- 
+       13 -- 
+       14 -- 
+       15 -- 
+       16 -- 
+       17 -- 
+       18 -- 
+       19 -- 
+       20 -- 
+       21 -- 
+       22 -- 
+       23 -- 
+       24 -- 
+       25 -- 
+       26 -- 
+       27 -- 
+       28 -- 
+       29 -- 
+       30 -- 
+       31 -- 
+       32 -- 
+       33 -- 
+       34 -- 
+       35 -- 
+       36 -- 
+       37 -- 
+       38 -- 
+       39 -- 
+       40 -- 
+       41 -- 
+       42 -- 
+       43 -- 
+       44 -- 
+       45 -- 
+       46 -- 
+       47 -- 
+       48 -- 
+       49 -- 
+       50 -- 
+       51 -- 
+       52 -- 
+       53 -- 
+       54 -- 
+       55 -- 
+       56 -- 
+       57 -- 
+       58 -- 
+       59 -- 
+       60 -- 
+       61 -- 
+       62 -- 
+       63 -- 
+       64 -- 
+       65 -- 
+       66 -- 
+       67 -- 
+       68 -- 
+       69 -- 
+       70 -- 
+       71 -- 
+       72 -- 
+       73 -- 
+       74 -- 
+       75 -- 
+       76 -- 
+       77 -- 
+       78 -- 
+       79 -- 
+       80 -- 
+       81 -- 
+       82 -- 
+       83 -- 
+       84 -- 
+       85 -- 
+       86 -- 
+       87 -- 
+       88 -- 
+       89 -- 
+       90 -- 
+       91 -- 
+       92 -- 
+       93 -- 
+       94 -- 
+       95 -- 
+       96 -- 
+       97 -- 
+       98 -- 
+       99 -- 
+      100 -- 
+      101 -- 
+      102 -- 
+      103 -- 
+      104 -- 
+      105 -- 
+      106 -- 
+      107 -- 
+      108 -- 
+      109 -- 
+      110 -- 
+      111 -- 
+      112 -- 
+      113 -- 
+      114 -- 
+      115 -- 
+      116 -- 
+      117 -- 
+      118 -- 
+      119 -- 
+      120 -- 
+      121 -- 
+      122 -- 
+      123 -- 
+      124 -- 
+      125 -- 
+      126 -- 
+      127 -- 
+      128 -- 
+      129 -- 
+      130 -- 
+      131 -- 
+      132 -- 
+      133 -- 
+      134 -- 
+      135 -- 
+      136 -- 
+      137 -- 
+      -------------------------------------------------
+
+      Summary statistics for informative taxon bipartitions
+         (saved to file "input.nex.tstat"):
+
+       ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+      -----------------------------------------------------------------
+       43    12    1.000000    0.000000    1.000000    1.000000    2
+       44    12    1.000000    0.000000    1.000000    1.000000    2
+       45    12    1.000000    0.000000    1.000000    1.000000    2
+       46    12    1.000000    0.000000    1.000000    1.000000    2
+       47    12    1.000000    0.000000    1.000000    1.000000    2
+       48    12    1.000000    0.000000    1.000000    1.000000    2
+       49    12    1.000000    0.000000    1.000000    1.000000    2
+       50    12    1.000000    0.000000    1.000000    1.000000    2
+       51    12    1.000000    0.000000    1.000000    1.000000    2
+       52    12    1.000000    0.000000    1.000000    1.000000    2
+       53    12    1.000000    0.000000    1.000000    1.000000    2
+       54    12    1.000000    0.000000    1.000000    1.000000    2
+       55    12    1.000000    0.000000    1.000000    1.000000    2
+       56    12    1.000000    0.000000    1.000000    1.000000    2
+       57    12    1.000000    0.000000    1.000000    1.000000    2
+       58    12    1.000000    0.000000    1.000000    1.000000    2
+       59    12    1.000000    0.000000    1.000000    1.000000    2
+       60    12    1.000000    0.000000    1.000000    1.000000    2
+       61    12    1.000000    0.000000    1.000000    1.000000    2
+       62    12    1.000000    0.000000    1.000000    1.000000    2
+       63    12    1.000000    0.000000    1.000000    1.000000    2
+       64    11    0.916667    0.117851    0.833333    1.000000    2
+       65    10    0.833333    0.000000    0.833333    0.833333    2
+       66    10    0.833333    0.235702    0.666667    1.000000    2
+       67     9    0.750000    0.353553    0.500000    1.000000    2
+       68     9    0.750000    0.353553    0.500000    1.000000    2
+       69     8    0.666667    0.235702    0.500000    0.833333    2
+       70     8    0.666667    0.000000    0.666667    0.666667    2
+       71     7    0.583333    0.353553    0.333333    0.833333    2
+       72     7    0.583333    0.353553    0.333333    0.833333    2
+       73     7    0.583333    0.117851    0.500000    0.666667    2
+       74     7    0.583333    0.353553    0.333333    0.833333    2
+       75     6    0.500000    0.235702    0.333333    0.666667    2
+       76     5    0.416667    0.589256    0.000000    0.833333    1 *
+       77     5    0.416667    0.117851    0.333333    0.500000    2
+       78     5    0.416667    0.353553    0.166667    0.666667    2
+       79     4    0.333333    0.235702    0.166667    0.500000    2
+       80     4    0.333333    0.235702    0.166667    0.500000    2
+       81     4    0.333333    0.235702    0.166667    0.500000    2
+       82     4    0.333333    0.235702    0.166667    0.500000    2
+       83     4    0.333333    0.235702    0.166667    0.500000    2
+       84     3    0.250000    0.353553    0.000000    0.500000    1 *
+       85     3    0.250000    0.353553    0.000000    0.500000    1 *
+       86     3    0.250000    0.353553    0.000000    0.500000    1 *
+       87     3    0.250000    0.353553    0.000000    0.500000    1 *
+       88     3    0.250000    0.353553    0.000000    0.500000    1 *
+       89     3    0.250000    0.117851    0.166667    0.333333    2
+       90     3    0.250000    0.117851    0.166667    0.333333    2
+       91     3    0.250000    0.117851    0.166667    0.333333    2
+       92     2    0.166667    0.235702    0.000000    0.333333    1 *
+       93     2    0.166667    0.000000    0.166667    0.166667    2
+       94     2    0.166667    0.000000    0.166667    0.166667    2
+       95     2    0.166667    0.235702    0.000000    0.333333    1 *
+       96     2    0.166667    0.000000    0.166667    0.166667    2
+       97     2    0.166667    0.000000    0.166667    0.166667    2
+       98     2    0.166667    0.235702    0.000000    0.333333    1 *
+       99     2    0.166667    0.000000    0.166667    0.166667    2
+      100     2    0.166667    0.235702    0.000000    0.333333    1 *
+      101     2    0.166667    0.000000    0.166667    0.166667    2
+      102     2    0.166667    0.000000    0.166667    0.166667    2
+      103     2    0.166667    0.235702    0.000000    0.333333    1 *
+      104     1    0.083333    0.117851    0.000000    0.166667    1 *
+      105     1    0.083333    0.117851    0.000000    0.166667    1 *
+      106     1    0.083333    0.117851    0.000000    0.166667    1 *
+      107     1    0.083333    0.117851    0.000000    0.166667    1 *
+      108     1    0.083333    0.117851    0.000000    0.166667    1 *
+      109     1    0.083333    0.117851    0.000000    0.166667    1 *
+      110     1    0.083333    0.117851    0.000000    0.166667    1 *
+      111     1    0.083333    0.117851    0.000000    0.166667    1 *
+      112     1    0.083333    0.117851    0.000000    0.166667    1 *
+      113     1    0.083333    0.117851    0.000000    0.166667    1 *
+      114     1    0.083333    0.117851    0.000000    0.166667    1 *
+      115     1    0.083333    0.117851    0.000000    0.166667    1 *
+      116     1    0.083333    0.117851    0.000000    0.166667    1 *
+      117     1    0.083333    0.117851    0.000000    0.166667    1 *
+      118     1    0.083333    0.117851    0.000000    0.166667    1 *
+      119     1    0.083333    0.117851    0.000000    0.166667    1 *
+      120     1    0.083333    0.117851    0.000000    0.166667    1 *
+      121     1    0.083333    0.117851    0.000000    0.166667    1 *
+      122     1    0.083333    0.117851    0.000000    0.166667    1 *
+      123     1    0.083333    0.117851    0.000000    0.166667    1 *
+      124     1    0.083333    0.117851    0.000000    0.166667    1 *
+      125     1    0.083333    0.117851    0.000000    0.166667    1 *
+      126     1    0.083333    0.117851    0.000000    0.166667    1 *
+      127     1    0.083333    0.117851    0.000000    0.166667    1 *
+      128     1    0.083333    0.117851    0.000000    0.166667    1 *
+      129     1    0.083333    0.117851    0.000000    0.166667    1 *
+      130     1    0.083333    0.117851    0.000000    0.166667    1 *
+      131     1    0.083333    0.117851    0.000000    0.166667    1 *
+      132     1    0.083333    0.117851    0.000000    0.166667    1 *
+      133     1    0.083333    0.117851    0.000000    0.166667    1 *
+      134     1    0.083333    0.117851    0.000000    0.166667    1 *
+      135     1    0.083333    0.117851    0.000000    0.166667    1 *
+      136     1    0.083333    0.117851    0.000000    0.166667    1 *
+      137     1    0.083333    0.117851    0.000000    0.166667    1 *
+      -----------------------------------------------------------------
+      + Convergence diagnostic (standard deviation of split frequencies)
+        should approach 0.0 as runs converge.
+
+      * The partition was not found in all runs so the values are unreliable
+
+      Summary statistics for branch and node parameters
+         (saved to file "input.nex.vstat"):
+
+                                               95% HPD Interval
+                                             --------------------
+      Parameter       Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+      ---------------------------------------------------------------------------------------
+      length[1]      0.043769    0.000113    0.026176    0.053294    0.048897    0.927    2
+      length[2]      0.048760    0.000585    0.022241    0.091395    0.044096    0.940    2
+      length[3]      0.065513    0.000099    0.048823    0.078052    0.066009    1.034    2
+      length[4]      0.036561    0.000109    0.018656    0.049640    0.039172    0.925    2
+      length[5]      0.042837    0.000445    0.008928    0.066283    0.043218    1.063    2
+      length[6]      0.281965    0.003868    0.185840    0.349057    0.273151    0.923    2
+      length[7]      0.001285    0.000001    0.000098    0.002671    0.001244    1.198    2
+      length[8]      0.001815    0.000001    0.000775    0.002628    0.001796    1.379    2
+      length[9]      0.214200    0.004033    0.106991    0.294485    0.226585    0.953    2
+      length[10]     0.007263    0.000009    0.003662    0.010158    0.006983    0.920    2
+      length[11]     0.002458    0.000002    0.000472    0.004431    0.002047    0.916    2
+      length[12]     0.002325    0.000005    0.000271    0.006418    0.001692    1.199    2
+      length[13]     0.002734    0.000002    0.000608    0.003927    0.002396    1.037    2
+      length[14]     0.008296    0.000006    0.004400    0.010911    0.007690    0.936    2
+      length[15]     0.024218    0.000053    0.007934    0.029720    0.025554    0.972    2
+      length[16]     0.017192    0.000035    0.009932    0.021518    0.017510    0.914    2
+      length[17]     0.001844    0.000001    0.000452    0.003526    0.001860    0.988    2
+      length[18]     0.006989    0.000004    0.003605    0.008833    0.006552    0.913    2
+      length[19]     0.038706    0.000194    0.020784    0.050866    0.034483    0.936    2
+      length[20]     0.002584    0.000003    0.000529    0.004510    0.002015    1.404    2
+      length[21]     0.001796    0.000002    0.000528    0.003194    0.001574    1.075    2
+      length[22]     0.001236    0.000001    0.000050    0.002504    0.001153    1.319    2
+      length[23]     0.019236    0.000069    0.006666    0.031133    0.019404    0.924    2
+      length[24]     0.001725    0.000001    0.000081    0.002998    0.001635    1.070    2
+      length[25]     0.004188    0.000005    0.001591    0.007101    0.003589    0.973    2
+      length[26]     0.000328    0.000000    0.000029    0.000471    0.000272    1.017    2
+      length[27]     0.001097    0.000001    0.000173    0.001409    0.001082    0.930    2
+      length[28]     0.000559    0.000000    0.000064    0.001101    0.000515    0.935    2
+      length[29]     0.001223    0.000001    0.000237    0.002294    0.001209    0.940    2
+      length[30]     0.001872    0.000001    0.000383    0.002920    0.001924    0.922    2
+      length[31]     0.001665    0.000002    0.000151    0.003879    0.000960    0.924    2
+      length[32]     0.063201    0.000260    0.029674    0.086460    0.066525    0.913    2
+      length[33]     0.001279    0.000001    0.000254    0.002105    0.001303    0.935    2
+      length[34]     0.002128    0.000001    0.000644    0.003266    0.002062    0.938    2
+      length[35]     0.002180    0.000002    0.000252    0.004096    0.002116    1.043    2
+      length[36]     0.003381    0.000002    0.001712    0.004941    0.002788    1.024    2
+      length[37]     0.002848    0.000003    0.000207    0.004841    0.003290    1.465    2
+      length[38]     0.002064    0.000002    0.000175    0.003916    0.002393    1.351    2
+      length[39]     0.002752    0.000000    0.001805    0.003499    0.002853    0.915    2
+      length[40]     0.005259    0.000002    0.003118    0.006224    0.005407    1.064    2
+      length[41]     0.001716    0.000002    0.000579    0.003733    0.001624    0.925    2
+      length[42]     0.054911    0.000127    0.038411    0.068568    0.055914    0.929    2
+      length[43]     0.105210    0.000662    0.062549    0.145013    0.107047    0.913    2
+      length[44]     0.029517    0.000069    0.016782    0.037768    0.030426    0.946    2
+      length[45]     0.075801    0.000596    0.044713    0.095696    0.075829    1.020    2
+      length[46]     0.044361    0.000253    0.018758    0.068804    0.046849    1.111    2
+      length[47]     0.210049    0.002021    0.144960    0.274500    0.200389    0.931    2
+      length[48]     0.015871    0.000076    0.002815    0.025008    0.015001    1.328    2
+      length[49]     0.007282    0.000003    0.003576    0.008681    0.008121    1.049    2
+      length[50]     0.020154    0.000099    0.003192    0.032460    0.019480    0.919    2
+      length[51]     0.034273    0.000176    0.011355    0.053246    0.035113    1.144    2
+      length[52]     0.084907    0.000230    0.064997    0.107707    0.082921    1.013    2
+      length[53]     0.054929    0.000157    0.039346    0.073103    0.053572    0.967    2
+      length[54]     0.060221    0.000157    0.035490    0.079096    0.061093    1.045    2
+      length[55]     0.019250    0.000044    0.009250    0.025580    0.019324    1.089    2
+      length[56]     0.080825    0.000468    0.057966    0.090657    0.078311    0.986    2
+      length[57]     0.045951    0.000120    0.028365    0.058970    0.045527    0.923    2
+      length[58]     0.108528    0.000531    0.084493    0.143970    0.102444    1.054    2
+      length[59]     0.064223    0.000196    0.029514    0.074749    0.069645    1.026    2
+      length[60]     0.092785    0.001122    0.035091    0.136988    0.092237    1.185    2
+      length[61]     0.036244    0.000132    0.011451    0.047537    0.040929    1.207    2
+      length[62]     0.459300    0.013339    0.316174    0.609060    0.433640    0.918    2
+      length[63]     0.020768    0.000063    0.008849    0.031566    0.023236    0.944    2
+      length[64]     0.026092    0.000101    0.015016    0.037765    0.024088    1.010    2
+      length[65]     0.011442    0.000035    0.003593    0.020832    0.010890    0.956    2
+      length[66]     0.002781    0.000002    0.001230    0.005688    0.002779    1.210    2
+      length[67]     0.019009    0.000013    0.012320    0.024661    0.019374    1.022    2
+      length[68]     0.017955    0.000098    0.006952    0.038716    0.015119    1.105    2
+      length[69]     0.016473    0.000106    0.002110    0.032842    0.020363    2.296    2
+      length[70]     0.022783    0.000064    0.013608    0.037141    0.021742    0.942    2
+      length[71]     0.007036    0.000034    0.001945    0.017850    0.004121    0.849    2
+      length[72]     0.002619    0.000001    0.000935    0.004238    0.002819    0.868    2
+      length[73]     0.008233    0.000040    0.001725    0.018311    0.006400    0.870    2
+      length[74]     0.001784    0.000001    0.000627    0.003064    0.001817    0.849    2
+      length[75]     0.055468    0.002219    0.012075    0.136795    0.041365    1.691    2
+      length[76]     0.033198    0.000242    0.012642    0.052347    0.037799     NA      1 *
+      length[77]     0.013483    0.000020    0.006756    0.019133    0.013182    0.778    2
+      length[78]     0.011529    0.000086    0.002726    0.025389    0.012641     NA      2
+      length[79]     0.009431    0.000004    0.006676    0.011056    0.010477     NA      2
+      length[80]     0.007855    0.000060    0.000120    0.017245    0.011025     NA      2
+      length[81]     0.022422    0.000159    0.012502    0.039938    0.023191     NA      2
+      length[82]     0.012915    0.000052    0.007385    0.023238    0.012379     NA      2
+      length[83]     0.011347    0.000101    0.004475    0.025808    0.010543     NA      2
+      length[84]     0.037361    0.000423    0.013683    0.050737    0.047665     NA      1 *
+      length[85]     0.008049    0.000055    0.002109    0.016347    0.005690     NA      1 *
+      length[86]     0.050667    0.000161    0.037100    0.062245    0.052656     NA      1 *
+      length[87]     0.000359    0.000000    0.000118    0.000520    0.000439     NA      1 *
+      length[88]     0.025309    0.000122    0.012579    0.032586    0.030761     NA      1 *
+      length[89]     0.010836    0.000088    0.004590    0.021638    0.006280    0.577    2
+      length[90]     0.001852    0.000001    0.000909    0.002397    0.002250    0.577    2
+      length[91]     0.007367    0.000034    0.002506    0.013802    0.005792     NA      2
+      length[92]     0.013254    0.000091    0.006491    0.020017    0.020017     NA      1 *
+      length[93]     0.005633    0.000032    0.001610    0.009656    0.009656     NA      2
+      length[94]     0.014825    0.000005    0.013194    0.016455    0.016455     NA      2
+      length[95]     0.009746    0.000001    0.009082    0.010410    0.010410     NA      1 *
+      length[96]     0.007056    0.000019    0.003983    0.010129    0.010129     NA      2
+      length[97]     0.008668    0.000002    0.007789    0.009547    0.009547     NA      2
+      length[98]     0.007526    0.000032    0.003534    0.011518    0.011518     NA      1 *
+      length[99]     0.002902    0.000005    0.001333    0.004472    0.004472     NA      2
+      length[100]    0.001765    0.000001    0.001035    0.002495    0.002495     NA      1 *
+      length[101]    0.009501    0.000012    0.007085    0.011916    0.011916     NA      2
+      length[102]    0.013620    0.000016    0.010810    0.016430    0.016430     NA      2
+      length[103]    0.008559    0.000002    0.007565    0.009553    0.009553     NA      1 *
+      length[104]    0.001766    0.000000    0.001766    0.001766    0.001766     NA      1 *
+      length[105]    0.004822    0.000000    0.004822    0.004822    0.004822     NA      1 *
+      length[106]    0.002768    0.000000    0.002768    0.002768    0.002768     NA      1 *
+      length[107]    0.012564    0.000000    0.012564    0.012564    0.012564     NA      1 *
+      length[108]    0.024086    0.000000    0.024086    0.024086    0.024086     NA      1 *
+      length[109]    0.006740    0.000000    0.006740    0.006740    0.006740     NA      1 *
+      length[110]    0.000926    0.000000    0.000926    0.000926    0.000926     NA      1 *
+      length[111]    0.001112    0.000000    0.001112    0.001112    0.001112     NA      1 *
+      length[112]    0.008265    0.000000    0.008265    0.008265    0.008265     NA      1 *
+      length[113]    0.003174    0.000000    0.003174    0.003174    0.003174     NA      1 *
+      length[114]    0.010239    0.000000    0.010239    0.010239    0.010239     NA      1 *
+      length[115]    0.018709    0.000000    0.018709    0.018709    0.018709     NA      1 *
+      length[116]    0.023592    0.000000    0.023592    0.023592    0.023592     NA      1 *
+      length[117]    0.012884    0.000000    0.012884    0.012884    0.012884     NA      1 *
+      length[118]    0.002809    0.000000    0.002809    0.002809    0.002809     NA      1 *
+      length[119]    0.005936    0.000000    0.005936    0.005936    0.005936     NA      1 *
+      length[120]    0.010900    0.000000    0.010900    0.010900    0.010900     NA      1 *
+      length[121]    0.019543    0.000000    0.019543    0.019543    0.019543     NA      1 *
+      length[122]    0.020710    0.000000    0.020710    0.020710    0.020710     NA      1 *
+      length[123]    0.002871    0.000000    0.002871    0.002871    0.002871     NA      1 *
+      length[124]    0.002692    0.000000    0.002692    0.002692    0.002692     NA      1 *
+      length[125]    0.002370    0.000000    0.002370    0.002370    0.002370     NA      1 *
+      length[126]    0.001450    0.000000    0.001450    0.001450    0.001450     NA      1 *
+      length[127]    0.000565    0.000000    0.000565    0.000565    0.000565     NA      1 *
+      length[128]    0.003817    0.000000    0.003817    0.003817    0.003817     NA      1 *
+      length[129]    0.001280    0.000000    0.001280    0.001280    0.001280     NA      1 *
+      length[130]    0.000504    0.000000    0.000504    0.000504    0.000504     NA      1 *
+      length[131]    0.043771    0.000000    0.043771    0.043771    0.043771     NA      1 *
+      length[132]    0.006781    0.000000    0.006781    0.006781    0.006781     NA      1 *
+      length[133]    0.009054    0.000000    0.009054    0.009054    0.009054     NA      1 *
+      length[134]    0.000609    0.000000    0.000609    0.000609    0.000609     NA      1 *
+      length[135]    0.011979    0.000000    0.011979    0.011979    0.011979     NA      1 *
+      length[136]    0.019654    0.000000    0.019654    0.019654    0.019654     NA      1 *
+      length[137]    0.006957    0.000000    0.006957    0.006957    0.006957     NA      1 *
+      ---------------------------------------------------------------------------------------
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+        deviation of parameter values within all runs is 0 or when a parameter
+        value (a branch length, for instance) is not sampled in all runs.
+      * The partition was not found in all runs so the values are unreliable.
+
+
+      Summary statistics for partitions with frequency >= 0.10 in at least one run:
+          Average standard deviation of split frequencies = 0.129016
+          Maximum standard deviation of split frequencies = 0.589256
+          Average PSRF for parameter values (excluding NA and >10.0) = 1.030
+          Maximum PSRF for parameter values = 2.296
+
+
+      Clade credibility values:
+
+      Subtree rooted at node 76:
+
+                                                     /----------- EF108175_1_Rhin~ (2)
+                                                     |                                
+                                           /----58---+     /----- JN106271_1_Rhi~ (10)
+                                           |         \-100-+                          
+                                           |               \----- JN106276_1_Rhi~ (12)
+                                           |                                          
+                                      /-100+         /----------- JN106304_1_Rhi~ (14)
+                                      |    |         |                                
+                                      |    |    /-83-+     /----- JN106312_1_Rhi~ (17)
+                                      |    |    |    \-100-+                          
+                                /--92-+    \-58-+          \----- JN106315_1_Rhi~ (18)
+                                |     |         |                                     
+                                |     |         \---------------- JN106310_1_Rhi~ (16)
+                      /----17---+     |                                               
+                      |         |     \-------------------------- QF2110__Rhinol~ (42)
+                      |         |                                                     
+                      |         \-------------------------------- FJ185213_1_Rhin~ (5)
+                      |                                                               
+                      |                                    /----- FJ489957_1_Rous~ (6)
+                      |                              /-100-+                          
+                      |                              |     \----- JF327290_1_Pter~ (9)
+                      |                         /-50-+                                
+                      |                         |    |     /----- JX502550_Rhino~ (20)
+                      |                         |    \-100-+                          
+                      |                         |          \----- JX502551_Rhino~ (21)
+                      |         /-------42------+                                     
+                      |         |               |          /----- MYTC21091 (26)
+                      |         |               |    /--58-+                          
+                      |         |               |    |     \----- MYTC21100 (27)
+                      |         |               \-100+                                
+                 /-75-+         |                    |     /----- MYTC21101 (28)
+                 |    |         |                    \--58-+                          
+                 |    |         |                          \----- MYTC21143 (29)
+                 |    |         |                                                     
+                 |    |    /-17-+                          /----- MN790977_1_Rhi~ (22)
+                 |    |    |    |                    /-100-+                          
+                 |    |    |    |                    |     \----- PP706135_1_Rhi~ (39)
+                 |    |    |    |     /------100-----+                                
+                 |    |    |    |     |              |     /----- MZ936302_1_Rhi~ (30)
+                 |    |    |    |     |              \-100-+                          
+                 |    |    |    |     |                    \----- MZ936303_1_Rhi~ (31)
+                 |    |    |    |     |                                               
+                 |    |    |    |     |         /---------------- MT586789_1_Rhi~ (23)
+                 |    |    |    \-100-+         |                                     
+                 |    |    |          |    /-83-+    /----------- MZ936304_1_Rhi~ (32)
+                 |    |    |          |    |    |    |                                
+                 |    \-17-+          |    |    \-100+     /----- PQ727140_1_Rhi~ (40)
+           /-100-+         |          |    |         \-100-+                          
+           |     |         |          \-100+               \----- PQ727141_1_Rhi~ (41)
+           |     |         |               |                                          
+           |     |         |               |               /----- OR028831_1_Rhi~ (37)
+           |     |         |               \------100------+                          
+           |     |         |                               \----- OR028832_1_Rhi~ (38)
+           |     |         |                                                          
+           |     |         |                               /----- HM134916_1_Rhin~ (7)
+           |     |         |                         /-100-+                          
+           |     |         |                         |     \----- HM134917_1_Rhin~ (8)
+           |     |         \------------67-----------+                                
+      --100+     |                                   |     /----- MW711358_1_Rhi~ (24)
+           |     |                                   \-100-+                          
+           |     |                                         \----- MW711359_1_Rhi~ (25)
+           |     |                                                                    
+           |     |                                   /----------- FJ185189_1_Rhin~ (3)
+           |     |                                   |                                
+           |     \-----------------75----------------+     /----- ON640700_1_Rhi~ (33)
+           |                                         \-100-+                          
+           |                                               \----- ON640701_1_Rhi~ (34)
+           |                                                                          
+           |                                               /----- OQ560331_1_Rhi~ (35)
+           \----------------------100----------------------+                          
+                                                           \----- OQ560338_1_Rhi~ (36)
+                                                                                      
+      Root part of tree:
+
+      /---------------------------------------------------------- EF108162_1_Rhin~ (1)
+      |                                                                               
+      |---------------------------------------------------------- JN106309_1_Rhi~ (15)
+      |                                                                               
+      |                                           /-------------- (76)
+      +                            /------67------+                                   
+      |                            |              \-------------- FJ185207_1_Rhin~ (4)
+      |              /------42-----+                                                  
+      |              |             |              /-------------- JN106272_1_Rhi~ (11)
+      |              |             \------100-----+                                   
+      \------42------+                            \-------------- JN106277_1_Rhi~ (13)
+                     |                                                                
+                     \------------------------------------------- JQ915621_1_Rhi~ (19)
+                                                                                      
+
+      Phylogram (based on average branch lengths):
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              /--- EF108162_1_Rhin~ (1)
+      |                                                                               
+      |-- JN106309_1_Rhi~ (15)
+      |                                                                               
+      |           /--- EF108175_1_Rhin~ (2)
+      |           |                                                                   
+      |           |/- JN106271_1_Rhi~ (10)
+      |           |+                                                                  
+      |           |\- JN106276_1_Rhi~ (12)
+      |           |                                                                   
+      |         /-+- JN106304_1_Rhi~ (14)
+      |         | |                                                                   
+      |         | |/ JN106312_1_Rhi~ (17)
+      |         | |+                                                                  
+      |        /+ |\ JN106315_1_Rhi~ (18)
+      |        || |                                                                   
+      |        || \- JN106310_1_Rhi~ (16)
+      |       /+|                                                                     
+      |       ||\---- QF2110__Rhinol~ (42)
+      |       ||                                                                      
+      |       |\--- FJ185213_1_Rhin~ (5)
+      |       |                                                                       
+      |       |                                /----------------- FJ489957_1_Rous~ (6)
+      |       |     /--------------------------+                                      
+      |       |     |                          \-------------- JF327290_1_Pter~ (9)
+      |       |   /-+                                                                 
+      |       |   | |     / JX502550_Rhino~ (20)
+      |       |   | \-----+                                                           
+      |       |   |       \ JX502551_Rhino~ (21)
+      |       |/--+                                                                   
+      |       ||  |           / MYTC21091 (26)
+      |       ||  |           |                                                       
+      |       ||  |           | MYTC21100 (27)
+      |       ||  \-----------+                                                       
+      |      /+|              | MYTC21101 (28)
+      |      |||              |                                                       
+      |      |||              \ MYTC21143 (29)
+      |      |||                                                                      
+      |      |||           / MN790977_1_Rhi~ (22)
+      +      |||      /----+                                                          
+      |      |||      |    \ PP706135_1_Rhi~ (39)
+      |      ||| /----+                                                               
+      |      ||| |    | / MZ936302_1_Rhi~ (30)
+      |      ||| |    \-+                                                             
+      |      ||| |      \ MZ936303_1_Rhi~ (31)
+      |      ||| |                                                                    
+      |      ||| | /-- MT586789_1_Rhi~ (23)
+      |      |||-+ |                                                                  
+      |      ||| | | /---- MZ936304_1_Rhi~ (32)
+      |      ||| | | |                                                                
+      |      |\+ | |-+    / PQ727140_1_Rhi~ (40)
+      |     /+ | | | \----+                                                           
+      |     || | \-+      \ PQ727141_1_Rhi~ (41)
+      |     || |   |                                                                  
+      |     || |   | /- OR028831_1_Rhi~ (37)
+      |     || |   \-+                                                                
+      |     || |     \- OR028832_1_Rhi~ (38)
+      |     || |                                                                      
+      |     || |   / HM134916_1_Rhin~ (7)
+      |     || |/--+                                                                  
+      |     || ||  \ HM134917_1_Rhin~ (8)
+      |     || \+                                                                     
+      |  /--+|  |      / MW711358_1_Rhi~ (24)
+      |  |  ||  \------+                                                              
+      |  |  ||         \ MW711359_1_Rhi~ (25)
+      |  |  ||                                                                        
+      |  |  ||/---- FJ185189_1_Rhin~ (3)
+      |  |  |||                                                                       
+      |  |  |\+   / ON640700_1_Rhi~ (33)
+      | /+  | \---+                                                                   
+      | ||  |     \ ON640701_1_Rhi~ (34)
+      | ||  |                                                                         
+      | ||  |     / OQ560331_1_Rhi~ (35)
+      | ||  \-----+                                                                   
+      |/+|        \ OQ560338_1_Rhi~ (36)
+      ||||                                                                            
+      |||\-- FJ185207_1_Rhin~ (4)
+      |||                                                                             
+      \+|  /- JN106272_1_Rhi~ (11)
+       |\--+                                                                          
+       |   \- JN106277_1_Rhi~ (13)
+       |                                                                              
+       \-- JQ915621_1_Rhi~ (19)
+                                                                                      
+      |-----------| 0.200 expected changes per site
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (12 trees sampled):
+         50 % credible set contains 7 trees
+         90 % credible set contains 11 trees
+         95 % credible set contains 12 trees
+         99 % credible set contains 12 trees
+
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.50
+      Summarizing parameters in files input.nex.run1.p and input.nex.run2.p
+      Writing summary statistics to file input.nex.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 50 % of samples
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+      +------------------------------------------------------------+ -8029.49
+      |                                                1          2|
+      |                                    2           2           |
+      |                        2           1                      1|
+      |            1                                               |
+      |                                                            |
+      |                                                            |
+      |                        1                                   |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |2                                                           |
+      |                                                            |
+      |                                                            |
+      |            2                                               |
+      |1                                                           |
+      +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -8092.16
+      ^                                                            ^
+      6000                                                         11000
+
+      Overwriting file "input.nex.lstat"
+
+      Estimated marginal likelihoods for runs sampled in files
+         "input.nex.run1.p" and "input.nex.run2.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+
+         (Values are saved to the file input.nex.lstat)
+
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1      -8032.37         -8090.37
+        2      -8031.28         -8084.12
+      --------------------------------------
+      TOTAL    -8031.68         -8089.68
+      --------------------------------------
+
+
+      Model parameter summaries over the runs sampled in files
+         "input.nex.run1.p" and "input.nex.run2.p":
+         Summaries are based on a total of 12 samples from 2 runs.
+         Each run produced 12 samples of which 6 samples were included.
+         Parameter summaries saved to file "input.nex.pstat".
+      Overwriting file "input.nex.pstat"
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median    min ESS*  avg ESS    PSRF+ 
+      --------------------------------------------------------------------------------------------------
+      TL          2.950976    0.134821    2.344786    3.433645    2.997520      2.60      2.68    0.918
+      r(A<->C)    0.024329    0.000036    0.018496    0.029446    0.023045      6.00      6.00    0.946
+      r(A<->G)    0.480740    0.001596    0.389275    0.516017    0.502138      6.00      6.00    0.913
+      r(A<->T)    0.027526    0.000015    0.021386    0.032868    0.026522      6.00      6.00    0.979
+      r(C<->G)    0.016314    0.000041    0.007318    0.020431    0.016955      3.95      4.97    0.970
+      r(C<->T)    0.399664    0.000666    0.364785    0.434215    0.398031      6.00      6.00    0.950
+      r(G<->T)    0.051427    0.000821    0.024530    0.100865    0.049168      3.43      4.72    0.934
+      pi(A)       0.314811    0.000171    0.286529    0.331602    0.315873      6.00      6.00    1.018
+      pi(C)       0.372631    0.000274    0.335464    0.388846    0.368353      3.45      4.72    0.913
+      pi(G)       0.107800    0.000151    0.094290    0.130096    0.102621      5.50      5.75    0.914
+      pi(T)       0.204758    0.000089    0.181638    0.214848    0.209223      4.04      5.02    1.042
+      alpha       1.420716    0.160381    0.255623    1.743964    1.469472      6.00      6.00    1.010
+      pinvar      0.506547    0.014037    0.133986    0.557844    0.543439      5.17      5.59    1.032
+      --------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); min and avg values
+        correspond to minimal and average ESS among runs. 
+        ESS value below 100 may indicate that the parameter is undersampled. 
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge.
+
+
+   Exiting mrbayes block
+   Reached end of file
+
+MrBayes > 
