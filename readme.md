@@ -1,3 +1,5 @@
+The repo of YR-MPE is: [Github: Gipsy-The-Sheller/YR-MPE](https://github.com/Gipsy-The-Sheller/YR-MPE) or [Gitee: ZJXMolls/YR-MPE](https://gitee.com/ZJXMolls/YR-MPE).
+
 Included softwares:
 
 - MrBayes-3.2.7-MPI-BEAGLE3
