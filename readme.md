@@ -8,6 +8,7 @@ Included softwares:
 - MPBoot 1.2
 - LSD2
 - DecentTree
+- RAxML-NG
 
 * * *
 

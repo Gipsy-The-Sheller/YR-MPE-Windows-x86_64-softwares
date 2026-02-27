@@ -1,0 +1,114 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  linux-build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+        - {gmp: "ON", native: "ON", build_type: "Release", cxx: "g++", cc: "gcc", name: "gcc/release/gmp", flags: ""}
+        - {gmp: "ON", native: "ON", build_type: "Debug", cxx: "g++", cc: "gcc", name: "gcc/debug/gmp", flags: ""}
+        - {gmp: "OFF", native: "ON", build_type: "Release", cxx: "g++", cc: "gcc", name: "gcc/release/no-gmp", flags: ""}
+        - {gmp: "OFF", native: "ON", build_type: "Debug", cxx: "g++", cc: "gcc", name: "gcc/debug/no-gmp", flags: ""}
+        - {gmp: "ON", native: "ON", build_type: "Release", cxx: "clang++", cc: "clang", name: "clang/release/gmp", flags: ""}
+        - {gmp: "ON", native: "ON", build_type: "Debug", cxx: "clang++", cc: "clang", name: "clang/debug/gmp", flags: ""}
+        - {gmp: "OFF", native: "ON", build_type: "Release", cxx: "clang++", cc: "clang", name: "clang/release/no-gmp", flags: ""}
+        - {gmp: "OFF", native: "ON", build_type: "Debug", cxx: "clang++", cc: "clang", name: "clang/debug/no-gmp", flags: ""}
+        - {gmp: "ON", native: "OFF", build_type: "Release", cxx: "g++", cc: "gcc", name: "gcc/release/gmp/no-native", flags: ""}
+        - {gmp: "ON", native: "OFF", build_type: "Release", cxx: "clang++", cc: "clang", name: "clang/release/gmp/no-native", flags: ""}
+        - {gmp: "OFF", native: "ON", build_type: "Release", cxx: "g++", cc: "gcc", name: "gcc/release/sanitizers", flags: "-DCMAKE_CXX_FLAGS='-fno-omit-frame-pointer -fsanitize=address -fsanitize=leak -fsanitize=undefined' -DCMAKE_EXE_LINKER_FLAGS='-fno-omit-frame-pointer -fsanitize=address -fsanitize=leak -fsanitize=undefined'"}
+        - {gmp: "OFF", native: "ON", build_type: "Debug", cxx: "g++", cc: "gcc", name: "gcc/debug/sanitizers", flags: "-DCMAKE_CXX_FLAGS='-fno-omit-frame-pointer -fsanitize=address -fsanitize=leak -fsanitize=undefined' -DCMAKE_EXE_LINKER_FLAGS='-fno-omit-frame-pointer -fsanitize=address -fsanitize=leak -fsanitize=undefined'"}
+    name: linux/${{ matrix.config.name }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: configure
+      run: |
+        mkdir build
+        cd build
+        CC=${{ matrix.config.cc }} CXX=${{ matrix.config.cxx }} cmake ${{ matrix.config.flags }} -DTERRAPHAST_BUILD_CLIB=${{ matrix.config.gmp }} -DTERRAPHAST_USE_GMP=${{ matrix.config.gmp }} -DTERRAPHAST_ARCH_NATIVE=${{ matrix.config.native }} -DCMAKE_BUILD_TYPE=${{ matrix.config.build_type }} ..
+
+    - name: build
+      run: cmake --build $GITHUB_WORKSPACE/build -j 8
+
+    - name: test
+      run: |
+        cd build
+        ctest --output-on-failure
+
+  osx-build:
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+        - {gmp: "ON", native: "ON", build_type: "Release", cxx: "g++", cc: "gcc", name: "appleclang/release/gmp"}
+        - {gmp: "ON", native: "ON", build_type: "Debug", cxx: "g++", cc: "gcc", name: "appleclang/debug/gmp"}
+        - {gmp: "OFF", native: "ON", build_type: "Release", cxx: "g++", cc: "gcc", name: "appleclang/release/no-gmp"}
+        - {gmp: "OFF", native: "ON", build_type: "Debug", cxx: "g++", cc: "gcc", name: "appleclang/debug/no-gmp"}
+        # The GMP library provided by Homebrew seemingly links against the wrong stdlib, so we cannot use it
+        #- {gmp: "ON", native: "ON", build_type: "Release", cxx: "g++-9", cc: "gcc-9", name: "gcc/release/gmp"}
+        #- {gmp: "ON", native: "ON", build_type: "Debug", cxx: "g++-9", cc: "gcc-9", name: "gcc/debug/gmp"}
+        - {gmp: "OFF", native: "ON", build_type: "Release", cxx: "g++-9", cc: "gcc-9", name: "gcc/release/no-gmp"}
+        - {gmp: "OFF", native: "ON", build_type: "Debug", cxx: "g++-9", cc: "gcc-9", name: "gcc/debug/no-gmp"}
+        - {gmp: "ON", native: "OFF", build_type: "Release", cxx: "g++", cc: "gcc", name: "appleclang/release/no-native"}
+        - {gmp: "OFF", native: "OFF", build_type: "Release", cxx: "g++-9", cc: "gcc-9", name: "gcc/release/no-gmp/no-native"}
+
+    name: osx/${{ matrix.config.name }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: setup
+      run: brew install gmp gcc@9
+
+    - name: configure
+      run: |
+        mkdir build
+        cd build
+        CC=${{ matrix.config.cc }} CXX=${{ matrix.config.cxx }} cmake -DTERRAPHAST_BUILD_CLIB=${{ matrix.config.gmp }} -DTERRAPHAST_USE_GMP=${{ matrix.config.gmp }} -DTERRAPHAST_ARCH_NATIVE=${{ matrix.config.native }} -DCMAKE_BUILD_TYPE=${{ matrix.config.build_type }} ..
+
+    - name: build
+      run: cmake --build build -j 8
+
+    - name: test
+      run: |
+        cd build
+        ctest --output-on-failure
+
+  windows-build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+        - {build_type: "Release", name: "release"}
+        - {build_type: "Debug", name: "debug"}
+    name: windows/${{ matrix.config.name }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: configure
+      run: |
+        mkdir build
+        cd build
+        cmake -DTERRAPHAST_BUILD_CLIB=OFF -DTERRAPHAST_USE_GMP=OFF ..
+
+    - name: build
+      run: cmake --build build -j 8 --config ${{ matrix.config.build_type }}
+
+    - name: test
+      run: |
+        cd build
+        ctest -C ${{ matrix.config.build_type }} --output-on-failure
+
