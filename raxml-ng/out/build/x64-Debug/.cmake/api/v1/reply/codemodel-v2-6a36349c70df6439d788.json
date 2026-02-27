@@ -1,0 +1,457 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2,
+						12
+					],
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/pll-modules",
+					"childIndexes" : 
+					[
+						3,
+						5
+					],
+					"jsonFile" : "directory-libs.pll-modules-Debug-57b12c3cf37b4f453513.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules"
+				},
+				{
+					"build" : "libs/pll-modules/libs/libpll",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-libs.pll-modules.libs.libpll-Debug-65020f36b4feec6dbd07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/pll-modules/libs/libpll"
+				},
+				{
+					"build" : "libs/pll-modules/libs/libpll/src",
+					"jsonFile" : "directory-libs.pll-modules.libs.libpll.src-Debug-034d4dc006b31cfc02d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "libs/pll-modules/libs/libpll/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-libs.pll-modules.src-Debug-56ba39b36757eb9a6b8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src"
+				},
+				{
+					"build" : "libs/pll-modules/src/optimize",
+					"jsonFile" : "directory-libs.pll-modules.src.optimize-Debug-8aaa0b72fbc6283d14c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/optimize",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src/algorithm",
+					"jsonFile" : "directory-libs.pll-modules.src.algorithm-Debug-f740256c56a7dcbf14b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/algorithm",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src/binary",
+					"jsonFile" : "directory-libs.pll-modules.src.binary-Debug-5a490f2b244c196a3cb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/binary",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src/msa",
+					"jsonFile" : "directory-libs.pll-modules.src.msa-Debug-8df0a7ae4e6cab214a64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/msa",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src/tree",
+					"jsonFile" : "directory-libs.pll-modules.src.tree-Debug-3b1cbcf86a5de4e9442d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/tree",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "libs/pll-modules/src/util",
+					"jsonFile" : "directory-libs.pll-modules.src.util-Debug-6919a9502d5d8731e2dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "libs/pll-modules/src/util",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "libs/terraphast",
+					"jsonFile" : "directory-libs.terraphast-Debug-4ac8ac7d4cee45cce462.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "libs/terraphast",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-95462f27535ede1ad5a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "test/src",
+					"jsonFile" : "directory-test.src-Debug-52402992cfc1c1762934.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test/src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						13,
+						14
+					],
+					"name" : "raxml-ng",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "Pll-modules",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Libpll",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "terraphast",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "pll_obj::@e9b68fdb6704d494331d",
+					"jsonFile" : "target-pll_obj-Debug-fc5c87f4338caefa57d0.json",
+					"name" : "pll_obj",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pll_static::@e9b68fdb6704d494331d",
+					"jsonFile" : "target-pll_static-Debug-6e2a6492b952b0100c66.json",
+					"name" : "pll_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pllmodalgorithm_obj::@2bc69ad8edbe320f57b8",
+					"jsonFile" : "target-pllmodalgorithm_obj-Debug-cb9a02d4368ee735b52d.json",
+					"name" : "pllmodalgorithm_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pllmodalgorithm_static::@2bc69ad8edbe320f57b8",
+					"jsonFile" : "target-pllmodalgorithm_static-Debug-8d0b4a0fa545855ded35.json",
+					"name" : "pllmodalgorithm_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "pllmodbinary_obj::@891d96ccad79d9df4105",
+					"jsonFile" : "target-pllmodbinary_obj-Debug-2b16a2652bb73c800c3a.json",
+					"name" : "pllmodbinary_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "pllmodbinary_static::@891d96ccad79d9df4105",
+					"jsonFile" : "target-pllmodbinary_static-Debug-6d26de669e3438f8d58a.json",
+					"name" : "pllmodbinary_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "pllmodmsa_obj::@cdca1ff7359b1fb890d8",
+					"jsonFile" : "target-pllmodmsa_obj-Debug-30c3b03b1e280383eec0.json",
+					"name" : "pllmodmsa_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "pllmodmsa_static::@cdca1ff7359b1fb890d8",
+					"jsonFile" : "target-pllmodmsa_static-Debug-5bb0394576715f600a7d.json",
+					"name" : "pllmodmsa_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pllmodoptimize_obj::@eca982eda7c74c547e2c",
+					"jsonFile" : "target-pllmodoptimize_obj-Debug-12695bf31cab8c353c5c.json",
+					"name" : "pllmodoptimize_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pllmodoptimize_static::@eca982eda7c74c547e2c",
+					"jsonFile" : "target-pllmodoptimize_static-Debug-15452faa9c07e730c6ed.json",
+					"name" : "pllmodoptimize_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pllmodtree_obj::@b638ae98623f4843a590",
+					"jsonFile" : "target-pllmodtree_obj-Debug-83eba04c72d562c23eff.json",
+					"name" : "pllmodtree_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pllmodtree_static::@b638ae98623f4843a590",
+					"jsonFile" : "target-pllmodtree_static-Debug-d159c70b8bb8ae167733.json",
+					"name" : "pllmodtree_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pllmodutil_obj::@b9389a030f16e9e3a984",
+					"jsonFile" : "target-pllmodutil_obj-Debug-2cf08459db9e1f955ab6.json",
+					"name" : "pllmodutil_obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pllmodutil_static::@b9389a030f16e9e3a984",
+					"jsonFile" : "target-pllmodutil_static-Debug-8c72209caecf2d59adc9.json",
+					"name" : "pllmodutil_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "raxml_module::@145eef247bfb46b6828c",
+					"jsonFile" : "target-raxml_module-Debug-be3b0decc750b0c0237c.json",
+					"name" : "raxml_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "terraces::@bd00e6736dd30b08a947",
+					"jsonFile" : "target-terraces-Debug-2f1db25660d91ef4765d.json",
+					"name" : "terraces",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Codes/raxml-ng/out/build/x64-Debug",
+		"source" : "E:/Codes/raxml-ng"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,174 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./__/pllmod_common.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./lbfgsb/lbfgsb.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./lbfgsb/linesearch.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./lbfgsb/linpack.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./lbfgsb/miniCBLAS.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./lbfgsb/subalgorithms.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./opt_algorithms.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/./pll_optimize.c.obj"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_pllmodules_lib",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/CMakeLists.txt",
+			"libs/pll-modules/src/optimize/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -std=c99 -O3 -O3 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "pllmodoptimize_obj::@eca982eda7c74c547e2c",
+	"name" : "pllmodoptimize_obj",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/src/optimize",
+		"source" : "libs/pll-modules/src/optimize"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/pllmod_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/lbfgsb/lbfgsb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/lbfgsb/linesearch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/lbfgsb/linpack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/lbfgsb/miniCBLAS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/lbfgsb/subalgorithms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/opt_algorithms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/optimize/pll_optimize.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,21 @@
+{
+	"InstallScripts" : 
+	[
+		"/e/Codes/raxml-ng/build/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/optimize/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/algorithm/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/binary/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/msa/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/tree/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/pll-modules/src/util/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/libs/terraphast/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/src/cmake_install.cmake",
+		"/e/Codes/raxml-ng/build/test/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

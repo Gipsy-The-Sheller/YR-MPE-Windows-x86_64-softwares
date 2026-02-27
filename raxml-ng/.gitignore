@@ -1,43 +1,43 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# # Compiled Object files
+# *.slo
+# *.lo
+# *.o
+# *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# # Precompiled Headers
+# *.gch
+# *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# # Compiled Dynamic libraries
+# *.so
+# *.dylib
+# *.dll
 
-# Fortran module files
-*.mod
-*.smod
+# # Fortran module files
+# *.mod
+# *.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# # Compiled Static libraries
+# *.lai
+# *.la
+# *.a
+# *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# # Executables
+# *.exe
+# *.out
+# *.app
 
-# binaries
-build/
-bin/
-build-mpi/
-build-static/
-release/
+# # binaries
+# build/
+# bin/
+# build-mpi/
+# build-static/
+# release/
 
-# IDE project files
-.cproject
-.project
-.settings/
-.vscode
-.devcontainer
+# # IDE project files
+# .cproject
+# .project
+# .settings/
+# .vscode
+# .devcontainer

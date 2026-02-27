@@ -1,0 +1,156 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/./__/pllmod_common.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/./algo_callback.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/./algo_search.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/./pllmod_algorithm.c.obj"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_pllmodules_lib",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/CMakeLists.txt",
+			"libs/pll-modules/src/algorithm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -std=c99 -O3 -O3 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/algorithm/../binary"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/algorithm/../msa"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/algorithm/../optimize"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/algorithm/../tree"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/algorithm/../util"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "pllmodalgorithm_obj::@2bc69ad8edbe320f57b8",
+	"name" : "pllmodalgorithm_obj",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/src/algorithm",
+		"source" : "libs/pll-modules/src/algorithm"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/pllmod_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/algorithm/algo_callback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/algorithm/algo_search.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/algorithm/pllmod_algorithm.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,152 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./__/pllmod_common.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./models.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./models_aa.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./models_dna.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./models_gt.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/./models_mult.c.obj"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_pllmodules_lib",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/CMakeLists.txt",
+			"libs/pll-modules/src/util/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -std=c99 -O3 -O3 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "pllmodutil_obj::@b9389a030f16e9e3a984",
+	"name" : "pllmodutil_obj",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/src/util",
+		"source" : "libs/pll-modules/src/util"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/pllmod_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/util/models.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/util/models_aa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/util/models_dna.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/util/models_gt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/util/models_mult.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

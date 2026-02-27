@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libpllmodalgorithm.a CMakeFiles/pllmodalgorithm_obj.dir/__/pllmod_common.c.o CMakeFiles/pllmodalgorithm_obj.dir/algo_callback.c.o CMakeFiles/pllmodalgorithm_obj.dir/algo_search.c.o CMakeFiles/pllmodalgorithm_obj.dir/pllmod_algorithm.c.o
+/usr/bin/ranlib.exe libpllmodalgorithm.a

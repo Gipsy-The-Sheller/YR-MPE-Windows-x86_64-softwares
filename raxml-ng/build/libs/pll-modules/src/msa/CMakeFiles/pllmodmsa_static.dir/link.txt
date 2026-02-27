@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libpllmodmsa.a CMakeFiles/pllmodmsa_obj.dir/__/pllmod_common.c.o CMakeFiles/pllmodmsa_obj.dir/pll_msa.c.o
+/usr/bin/ranlib.exe libpllmodmsa.a

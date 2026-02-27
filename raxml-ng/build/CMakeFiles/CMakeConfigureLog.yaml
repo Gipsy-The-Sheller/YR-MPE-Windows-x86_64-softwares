@@ -1,0 +1,3845 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/local/bin/uname.com"
+      - "/usr/local/bin/uname.exe"
+      - "/usr/local/bin/uname"
+      - "/usr/bin/uname.com"
+    found: "/usr/bin/uname.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      The system is: MSYS - 3.6.4-23a25d49.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/local/bin/gmake.com"
+      - "/usr/local/bin/gmake.exe"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake.com"
+      - "/usr/bin/gmake.exe"
+      - "/usr/bin/gmake"
+      - "/bin/gmake.com"
+      - "/bin/gmake.exe"
+      - "/bin/gmake"
+      - "/opt/bin/gmake.com"
+      - "/opt/bin/gmake.exe"
+      - "/opt/bin/gmake"
+      - "/c/Windows/System32/gmake.com"
+      - "/c/Windows/System32/gmake.exe"
+      - "/c/Windows/System32/gmake"
+      - "/c/Windows/gmake.com"
+      - "/c/Windows/gmake.exe"
+      - "/c/Windows/gmake"
+      - "/c/Windows/System32/Wbem/gmake.com"
+      - "/c/Windows/System32/Wbem/gmake.exe"
+      - "/c/Windows/System32/Wbem/gmake"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake"
+      - "/usr/bin/site_perl/gmake.com"
+      - "/usr/bin/site_perl/gmake.exe"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake.com"
+      - "/usr/bin/vendor_perl/gmake.exe"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake.com"
+      - "/usr/bin/core_perl/gmake.exe"
+      - "/usr/bin/core_perl/gmake"
+      - "/usr/local/bin/make.com"
+      - "/usr/local/bin/make.exe"
+      - "/usr/local/bin/make"
+      - "/usr/bin/make.com"
+    found: "/usr/bin/make.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/local/bin/cc.com"
+      - "/usr/local/bin/cc.exe"
+      - "/usr/local/bin/cc"
+      - "/usr/bin/cc.com"
+    found: "/usr/bin/cc.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        /e/Codes/raxml-ng/build/CMakeFiles/4.1.0/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/ar.com"
+    found: "/usr/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/ranlib.com"
+    found: "/usr/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/strip.com"
+    found: "/usr/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/ld.com"
+    found: "/usr/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/nm.com"
+    found: "/usr/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/objdump.com"
+    found: "/usr/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/objcopy.com"
+    found: "/usr/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/readelf.com"
+    found: "/usr/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/dlltool.com"
+    found: "/usr/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/addr2line.com"
+    found: "/usr/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi.com"
+      - "/usr/bin/tapi.exe"
+      - "/usr/bin/tapi"
+      - "/usr/local/bin/tapi.com"
+      - "/usr/local/bin/tapi.exe"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi.com"
+      - "/bin/tapi.exe"
+      - "/bin/tapi"
+      - "/opt/bin/tapi.com"
+      - "/opt/bin/tapi.exe"
+      - "/opt/bin/tapi"
+      - "/c/Windows/System32/tapi.com"
+      - "/c/Windows/System32/tapi.exe"
+      - "/c/Windows/System32/tapi"
+      - "/c/Windows/tapi.com"
+      - "/c/Windows/tapi.exe"
+      - "/c/Windows/tapi"
+      - "/c/Windows/System32/Wbem/tapi.com"
+      - "/c/Windows/System32/Wbem/tapi.exe"
+      - "/c/Windows/System32/Wbem/tapi"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "/usr/bin/site_perl/tapi.com"
+      - "/usr/bin/site_perl/tapi.exe"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi.com"
+      - "/usr/bin/vendor_perl/tapi.exe"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi.com"
+      - "/usr/bin/core_perl/tapi.exe"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2.com"
+      - "/usr/bin/gcc-ar-15.2.exe"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2.com"
+      - "/usr/local/bin/gcc-ar-15.2.exe"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2.com"
+      - "/bin/gcc-ar-15.2.exe"
+      - "/bin/gcc-ar-15.2"
+      - "/opt/bin/gcc-ar-15.2.com"
+      - "/opt/bin/gcc-ar-15.2.exe"
+      - "/opt/bin/gcc-ar-15.2"
+      - "/c/Windows/System32/gcc-ar-15.2.com"
+      - "/c/Windows/System32/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/gcc-ar-15.2"
+      - "/c/Windows/gcc-ar-15.2.com"
+      - "/c/Windows/gcc-ar-15.2.exe"
+      - "/c/Windows/gcc-ar-15.2"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2.com"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2.com"
+      - "/usr/bin/site_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2.com"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2.com"
+      - "/usr/bin/core_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.com"
+      - "/usr/bin/gcc-ar-15.exe"
+      - "/usr/bin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15.com"
+      - "/usr/local/bin/gcc-ar-15.exe"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15.com"
+      - "/bin/gcc-ar-15.exe"
+      - "/bin/gcc-ar-15"
+      - "/opt/bin/gcc-ar-15.com"
+      - "/opt/bin/gcc-ar-15.exe"
+      - "/opt/bin/gcc-ar-15"
+      - "/c/Windows/System32/gcc-ar-15.com"
+      - "/c/Windows/System32/gcc-ar-15.exe"
+      - "/c/Windows/System32/gcc-ar-15"
+      - "/c/Windows/gcc-ar-15.com"
+      - "/c/Windows/gcc-ar-15.exe"
+      - "/c/Windows/gcc-ar-15"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.com"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar-15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15.com"
+      - "/usr/bin/site_perl/gcc-ar-15.exe"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15.com"
+      - "/usr/bin/vendor_perl/gcc-ar-15.exe"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15.com"
+      - "/usr/bin/core_perl/gcc-ar-15.exe"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/usr/bin/gcc-ar15.com"
+      - "/usr/bin/gcc-ar15.exe"
+      - "/usr/bin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15.com"
+      - "/usr/local/bin/gcc-ar15.exe"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15.com"
+      - "/bin/gcc-ar15.exe"
+      - "/bin/gcc-ar15"
+      - "/opt/bin/gcc-ar15.com"
+      - "/opt/bin/gcc-ar15.exe"
+      - "/opt/bin/gcc-ar15"
+      - "/c/Windows/System32/gcc-ar15.com"
+      - "/c/Windows/System32/gcc-ar15.exe"
+      - "/c/Windows/System32/gcc-ar15"
+      - "/c/Windows/gcc-ar15.com"
+      - "/c/Windows/gcc-ar15.exe"
+      - "/c/Windows/gcc-ar15"
+      - "/c/Windows/System32/Wbem/gcc-ar15.com"
+      - "/c/Windows/System32/Wbem/gcc-ar15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15.com"
+      - "/usr/bin/site_perl/gcc-ar15.exe"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15.com"
+      - "/usr/bin/vendor_perl/gcc-ar15.exe"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15.com"
+      - "/usr/bin/core_perl/gcc-ar15.exe"
+      - "/usr/bin/core_perl/gcc-ar15"
+      - "/usr/bin/gcc-ar.com"
+    found: "/usr/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2.com"
+      - "/usr/bin/gcc-ranlib-15.2.exe"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2.com"
+      - "/usr/local/bin/gcc-ranlib-15.2.exe"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2.com"
+      - "/bin/gcc-ranlib-15.2.exe"
+      - "/bin/gcc-ranlib-15.2"
+      - "/opt/bin/gcc-ranlib-15.2.com"
+      - "/opt/bin/gcc-ranlib-15.2.exe"
+      - "/opt/bin/gcc-ranlib-15.2"
+      - "/c/Windows/System32/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/gcc-ranlib-15.2"
+      - "/c/Windows/gcc-ranlib-15.2.com"
+      - "/c/Windows/gcc-ranlib-15.2.exe"
+      - "/c/Windows/gcc-ranlib-15.2"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.com"
+      - "/usr/bin/gcc-ranlib-15.exe"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15.com"
+      - "/usr/local/bin/gcc-ranlib-15.exe"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15.com"
+      - "/bin/gcc-ranlib-15.exe"
+      - "/bin/gcc-ranlib-15"
+      - "/opt/bin/gcc-ranlib-15.com"
+      - "/opt/bin/gcc-ranlib-15.exe"
+      - "/opt/bin/gcc-ranlib-15"
+      - "/c/Windows/System32/gcc-ranlib-15.com"
+      - "/c/Windows/System32/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/gcc-ranlib-15"
+      - "/c/Windows/gcc-ranlib-15.com"
+      - "/c/Windows/gcc-ranlib-15.exe"
+      - "/c/Windows/gcc-ranlib-15"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15.com"
+      - "/usr/bin/site_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15.com"
+      - "/usr/bin/core_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15.com"
+      - "/usr/bin/gcc-ranlib15.exe"
+      - "/usr/bin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15.com"
+      - "/usr/local/bin/gcc-ranlib15.exe"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15.com"
+      - "/bin/gcc-ranlib15.exe"
+      - "/bin/gcc-ranlib15"
+      - "/opt/bin/gcc-ranlib15.com"
+      - "/opt/bin/gcc-ranlib15.exe"
+      - "/opt/bin/gcc-ranlib15"
+      - "/c/Windows/System32/gcc-ranlib15.com"
+      - "/c/Windows/System32/gcc-ranlib15.exe"
+      - "/c/Windows/System32/gcc-ranlib15"
+      - "/c/Windows/gcc-ranlib15.com"
+      - "/c/Windows/gcc-ranlib15.exe"
+      - "/c/Windows/gcc-ranlib15"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15.com"
+      - "/usr/bin/site_perl/gcc-ranlib15.exe"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib15.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15.com"
+      - "/usr/bin/core_perl/gcc-ranlib15.exe"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib.com"
+    found: "/usr/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    searched_directories:
+      - "/usr/bin/c++.com"
+    found: "/usr/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        /e/Codes/raxml-ng/build/CMakeFiles/4.1.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2.com"
+      - "/usr/bin/gcc-ar-15.2.exe"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2.com"
+      - "/usr/local/bin/gcc-ar-15.2.exe"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2.com"
+      - "/bin/gcc-ar-15.2.exe"
+      - "/bin/gcc-ar-15.2"
+      - "/opt/bin/gcc-ar-15.2.com"
+      - "/opt/bin/gcc-ar-15.2.exe"
+      - "/opt/bin/gcc-ar-15.2"
+      - "/c/Windows/System32/gcc-ar-15.2.com"
+      - "/c/Windows/System32/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/gcc-ar-15.2"
+      - "/c/Windows/gcc-ar-15.2.com"
+      - "/c/Windows/gcc-ar-15.2.exe"
+      - "/c/Windows/gcc-ar-15.2"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2.com"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.2"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2.com"
+      - "/usr/bin/site_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2.com"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2.com"
+      - "/usr/bin/core_perl/gcc-ar-15.2.exe"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.com"
+      - "/usr/bin/gcc-ar-15.exe"
+      - "/usr/bin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15.com"
+      - "/usr/local/bin/gcc-ar-15.exe"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15.com"
+      - "/bin/gcc-ar-15.exe"
+      - "/bin/gcc-ar-15"
+      - "/opt/bin/gcc-ar-15.com"
+      - "/opt/bin/gcc-ar-15.exe"
+      - "/opt/bin/gcc-ar-15"
+      - "/c/Windows/System32/gcc-ar-15.com"
+      - "/c/Windows/System32/gcc-ar-15.exe"
+      - "/c/Windows/System32/gcc-ar-15"
+      - "/c/Windows/gcc-ar-15.com"
+      - "/c/Windows/gcc-ar-15.exe"
+      - "/c/Windows/gcc-ar-15"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.com"
+      - "/c/Windows/System32/Wbem/gcc-ar-15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar-15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15.com"
+      - "/usr/bin/site_perl/gcc-ar-15.exe"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15.com"
+      - "/usr/bin/vendor_perl/gcc-ar-15.exe"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15.com"
+      - "/usr/bin/core_perl/gcc-ar-15.exe"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/usr/bin/gcc-ar15.com"
+      - "/usr/bin/gcc-ar15.exe"
+      - "/usr/bin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15.com"
+      - "/usr/local/bin/gcc-ar15.exe"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15.com"
+      - "/bin/gcc-ar15.exe"
+      - "/bin/gcc-ar15"
+      - "/opt/bin/gcc-ar15.com"
+      - "/opt/bin/gcc-ar15.exe"
+      - "/opt/bin/gcc-ar15"
+      - "/c/Windows/System32/gcc-ar15.com"
+      - "/c/Windows/System32/gcc-ar15.exe"
+      - "/c/Windows/System32/gcc-ar15"
+      - "/c/Windows/gcc-ar15.com"
+      - "/c/Windows/gcc-ar15.exe"
+      - "/c/Windows/gcc-ar15"
+      - "/c/Windows/System32/Wbem/gcc-ar15.com"
+      - "/c/Windows/System32/Wbem/gcc-ar15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ar15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15.com"
+      - "/usr/bin/site_perl/gcc-ar15.exe"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15.com"
+      - "/usr/bin/vendor_perl/gcc-ar15.exe"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15.com"
+      - "/usr/bin/core_perl/gcc-ar15.exe"
+      - "/usr/bin/core_perl/gcc-ar15"
+      - "/usr/bin/gcc-ar.com"
+    found: "/usr/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2.com"
+      - "/usr/bin/gcc-ranlib-15.2.exe"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2.com"
+      - "/usr/local/bin/gcc-ranlib-15.2.exe"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2.com"
+      - "/bin/gcc-ranlib-15.2.exe"
+      - "/bin/gcc-ranlib-15.2"
+      - "/opt/bin/gcc-ranlib-15.2.com"
+      - "/opt/bin/gcc-ranlib-15.2.exe"
+      - "/opt/bin/gcc-ranlib-15.2"
+      - "/c/Windows/System32/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/gcc-ranlib-15.2"
+      - "/c/Windows/gcc-ranlib-15.2.com"
+      - "/c/Windows/gcc-ranlib-15.2.exe"
+      - "/c/Windows/gcc-ranlib-15.2"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.2"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2.com"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2.exe"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.com"
+      - "/usr/bin/gcc-ranlib-15.exe"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15.com"
+      - "/usr/local/bin/gcc-ranlib-15.exe"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15.com"
+      - "/bin/gcc-ranlib-15.exe"
+      - "/bin/gcc-ranlib-15"
+      - "/opt/bin/gcc-ranlib-15.com"
+      - "/opt/bin/gcc-ranlib-15.exe"
+      - "/opt/bin/gcc-ranlib-15"
+      - "/c/Windows/System32/gcc-ranlib-15.com"
+      - "/c/Windows/System32/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/gcc-ranlib-15"
+      - "/c/Windows/gcc-ranlib-15.com"
+      - "/c/Windows/gcc-ranlib-15.exe"
+      - "/c/Windows/gcc-ranlib-15"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib-15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15.com"
+      - "/usr/bin/site_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15.com"
+      - "/usr/bin/core_perl/gcc-ranlib-15.exe"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15.com"
+      - "/usr/bin/gcc-ranlib15.exe"
+      - "/usr/bin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15.com"
+      - "/usr/local/bin/gcc-ranlib15.exe"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15.com"
+      - "/bin/gcc-ranlib15.exe"
+      - "/bin/gcc-ranlib15"
+      - "/opt/bin/gcc-ranlib15.com"
+      - "/opt/bin/gcc-ranlib15.exe"
+      - "/opt/bin/gcc-ranlib15"
+      - "/c/Windows/System32/gcc-ranlib15.com"
+      - "/c/Windows/System32/gcc-ranlib15.exe"
+      - "/c/Windows/System32/gcc-ranlib15"
+      - "/c/Windows/gcc-ranlib15.com"
+      - "/c/Windows/gcc-ranlib15.exe"
+      - "/c/Windows/gcc-ranlib15"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15.com"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15.exe"
+      - "/c/Windows/System32/Wbem/gcc-ranlib15"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15.com"
+      - "/usr/bin/site_perl/gcc-ranlib15.exe"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15.com"
+      - "/usr/bin/vendor_perl/gcc-ranlib15.exe"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15.com"
+      - "/usr/bin/core_perl/gcc-ranlib15.exe"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib.com"
+    found: "/usr/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "/usr/share/cmake/Modules/Platform/CYGWIN-GNU.cmake:57 (enable_language)"
+      - "/usr/share/cmake/Modules/Platform/CYGWIN-GNU-C.cmake:2 (__cygwin_compiler_gnu)"
+      - "/usr/share/cmake/Modules/Platform/MSYS-GNU-C.cmake:1 (include)"
+      - "/usr/share/cmake/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:47 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/bin/windres.com"
+      - "/usr/local/bin/windres.exe"
+      - "/usr/local/bin/windres"
+      - "/usr/bin/windres.com"
+    found: "/usr/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV"
+      binary: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_479bf/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_479bf.dir/build.make CMakeFiles/cmTC_479bf.dir/build
+        make[1]: Entering directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV'
+        Building C object CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc.exe   -v -o CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-cygwin
+        Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_479bf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o /tmp/ccavjQit.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-pc-cygwin)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/include"
+        ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed
+         /usr/include
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api
+        End of search list.
+        Compiler executable checksum: 3ed07188a841f49cd6e76fe450b88516
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o /tmp/ccavjQit.s
+        GNU assembler version 2.45 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_479bf.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_479bf.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe
+        Target: x86_64-pc-cygwin
+        Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_479bf.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_479bf.'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccUjl5td.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_479bf.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_479bf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o
+        collect2 version 15.2.0
+        /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccUjl5td.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_479bf.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_479bf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_479bf.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_479bf.'
+        /usr/bin/cc.exe -Wl,--enable-auto-import -v -Wl,-v CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o -o cmTC_479bf.exe -Wl,--out-implib,libcmTC_479bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+          add: [/usr/include]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api] ==> [/usr/include/w32api]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed;/usr/include;/usr/include/w32api]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_479bf/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_479bf.dir/build.make CMakeFiles/cmTC_479bf.dir/build]
+        ignore line: [make[1]: Entering directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-K2Y2SV']
+        ignore line: [Building C object CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc.exe   -v -o CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-cygwin]
+        ignore line: [Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_479bf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o /tmp/ccavjQit.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-pc-cygwin)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/include"]
+        ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3ed07188a841f49cd6e76fe450b88516]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o /tmp/ccavjQit.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_479bf.exe]
+        ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_479bf.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-pc-cygwin]
+        ignore line: [Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_479bf.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_479bf.']
+        link line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccUjl5td.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_479bf.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_479bf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccUjl5td.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_Znwm] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_Znam] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdlPv] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdaPv] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZnwmRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZnamRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [--dll-search-prefix=msys-] ==> ignore
+          arg [--tsaware] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_479bf.exe] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [--enable-auto-import] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_479bf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmsys-2.0] ==> lib [msys-2.0]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccUjl5td.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_479bf.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_479bf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_479bf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        linker tool for 'C': /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o] ==> [/usr/lib/crt0.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o] ==> [/usr/lib/default-manifest.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..] ==> [/usr/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+        implicit objs: [/usr/lib/crt0.o;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o;/usr/lib/default-manifest.o;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0;/usr/x86_64-pc-cygwin/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA"
+      binary: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_8dad1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8dad1.dir/build.make CMakeFiles/cmTC_8dad1.dir/build
+        make[1]: Entering directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA'
+        Building CXX object CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++.exe   -v -o CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-cygwin
+        Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8dad1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o /tmp/ccHWAdK3.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-pc-cygwin)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/include"
+        ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed
+         /usr/include
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api
+        End of search list.
+        Compiler executable checksum: 3a9cd7496f053e16c42169824ef6e47b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccHWAdK3.s
+        GNU assembler version 2.45 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8dad1.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8dad1.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe
+        Target: x86_64-pc-cygwin
+        Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8dad1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_8dad1.'
+         /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc1chYj3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8dad1.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8dad1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o
+        collect2 version 15.2.0
+        /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc1chYj3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8dad1.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8dad1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8dad1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_8dad1.'
+        /usr/bin/c++.exe -Wl,--enable-auto-import -v -Wl,-v CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8dad1.exe -Wl,--out-implib,libcmTC_8dad1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+          add: [/usr/include]
+          add: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api] ==> [/usr/include/w32api]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed;/usr/include;/usr/include/w32api]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_8dad1/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8dad1.dir/build.make CMakeFiles/cmTC_8dad1.dir/build]
+        ignore line: [make[1]: Entering directory '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-ByxxvA']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++.exe   -v -o CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-cygwin]
+        ignore line: [Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8dad1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o /tmp/ccHWAdK3.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-pc-cygwin)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/include"]
+        ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/../../include/w32api"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/x86_64-pc-cygwin]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/c++/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../include/w32api]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3a9cd7496f053e16c42169824ef6e47b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccHWAdK3.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8dad1.exe]
+        ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8dad1.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-pc-cygwin]
+        ignore line: [Configured with: /d/S/B/src/gcc-15.2.0/configure --build=x86_64-pc-cygwin --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8dad1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_8dad1.']
+        link line: [ /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc1chYj3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8dad1.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8dad1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1chYj3.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_Znwm] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_Znam] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdlPv] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdaPv] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZnwmRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZnamRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+          arg [--wrap] ==> ignore
+          arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [--dll-search-prefix=msys-] ==> ignore
+          arg [--tsaware] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8dad1.exe] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [--enable-auto-import] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_8dad1.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmsys-2.0] ==> lib [msys-2.0]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o]
+          arg [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc1chYj3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8dad1.exe /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0 -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../.. -L/usr/lib --enable-auto-import -v CMakeFiles/cmTC_8dad1.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8dad1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        linker tool for 'CXX': /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../crt0.o] ==> [/usr/lib/crt0.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../default-manifest.o] ==> [/usr/lib/default-manifest.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../..] ==> [/usr/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+        implicit objs: [/usr/lib/crt0.o;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtbegin.o;/usr/lib/default-manifest.o;/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/crtend.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/15.2.0;/usr/x86_64-pc-cygwin/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/../../../../x86_64-pc-cygwin/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:114 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo"
+      binary: "/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_d370d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d370d.dir/build.make CMakeFiles/cmTC_d370d.dir/build
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo”
+        Building C object CMakeFiles/cmTC_d370d.dir/src.c.o
+        /usr/bin/cc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d370d.dir/src.c.o -c /e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo/src.c
+        Linking C executable cmTC_d370d.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d370d.dir/link.txt --verbose=1
+        /usr/bin/cc.exe -Wl,--enable-auto-import  CMakeFiles/cmTC_d370d.dir/src.c.o -o cmTC_d370d.exe -Wl,--out-implib,libcmTC_d370d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/CMakeFiles/CMakeScratch/TryCompile-NZd7qo”
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindBISON.cmake:227 (find_program)"
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:16 (find_package)"
+    mode: "program"
+    variable: "BISON_EXECUTABLE"
+    description: "path to the bison executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bison"
+      - "win-bison"
+      - "win_bison"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/bin/bison.com"
+      - "/usr/local/bin/bison.exe"
+      - "/usr/local/bin/bison"
+      - "/usr/bin/bison.com"
+    found: "/usr/bin/bison.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindFLEX.cmake:272 (find_program)"
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:17 (find_package)"
+    mode: "program"
+    variable: "FLEX_EXECUTABLE"
+    description: "path to the flex executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "flex"
+      - "win-flex"
+      - "win_flex"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/bin/flex.com"
+      - "/usr/local/bin/flex.exe"
+      - "/usr/local/bin/flex"
+      - "/usr/bin/flex.com"
+    found: "/usr/bin/flex.exe"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindFLEX.cmake:275 (find_library)"
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:17 (find_package)"
+    mode: "library"
+    variable: "FL_LIBRARY"
+    description: "Path to the fl library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fl"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+    found: "/usr/lib/libfl.a"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindFLEX.cmake:278 (find_path)"
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:17 (find_package)"
+    mode: "path"
+    variable: "FLEX_INCLUDE_DIR"
+    description: "Path to the flex headers"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FlexLexer.h"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/w32api/"
+    searched_directories:
+      - "/usr/local/bin/FlexLexer.h"
+      - "/usr/bin/FlexLexer.h"
+      - "/bin/FlexLexer.h"
+      - "/opt/bin/FlexLexer.h"
+      - "/c/Windows/System32/FlexLexer.h"
+      - "/c/Windows/FlexLexer.h"
+      - "/c/Windows/System32/Wbem/FlexLexer.h"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/FlexLexer.h"
+      - "/usr/bin/site_perl/FlexLexer.h"
+      - "/usr/bin/vendor_perl/FlexLexer.h"
+      - "/usr/bin/core_perl/FlexLexer.h"
+      - "/usr/local/include/FlexLexer.h"
+      - "/usr/local/FlexLexer.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+        - "/usr/include/w32api"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:118 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_bcc1c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bcc1c.dir/build.make CMakeFiles/cmTC_bcc1c.dir/build
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_bcc1c.dir/testsse.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -msse3 -o CMakeFiles/cmTC_bcc1c.dir/testsse.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse.c
+        Linking C executable cmTC_bcc1c.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bcc1c.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_bcc1c.dir/testsse.c.o -o cmTC_bcc1c.exe -Wl,--out-implib,libcmTC_bcc1c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:130 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_dd027/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dd027.dir/build.make CMakeFiles/cmTC_dd027.dir/build
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_dd027.dir/testavx.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mavx -o CMakeFiles/cmTC_dd027.dir/testavx.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx.c
+        Linking C executable cmTC_dd027.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_dd027.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_dd027.dir/testavx.c.o -o cmTC_dd027.exe -Wl,--out-implib,libcmTC_dd027.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:142 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_cab81/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cab81.dir/build.make CMakeFiles/cmTC_cab81.dir/build
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_cab81.dir/testavx2.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mfma -mavx2 -o CMakeFiles/cmTC_cab81.dir/testavx2.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx2.c
+        Linking C executable cmTC_cab81.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_cab81.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_cab81.dir/testavx2.c.o -o cmTC_cab81.exe -Wl,--out-implib,libcmTC_cab81.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:154 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_f9974/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f9974.dir/build.make CMakeFiles/cmTC_f9974.dir/build
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_f9974.dir/testsse2neon.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -march=armv8-a+fp+simd -I/e/Codes/raxml-ng/libs/pll-modules/libs/libpll/src -o CMakeFiles/cmTC_f9974.dir/testsse2neon.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse2neon.c
+        cc1: error: bad value 'armv8-a+fp+simd' for '-march=' switch
+        cc1: note: valid arguments to '-march=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids emeraldrapids alderlake raptorlake meteorlake graniterapids graniterapids-d arrowlake arrowlake-s lunarlake pantherlake diamondrapids bonnell atom silvermont slm goldmont goldmont-plus tremont gracemont sierraforest grandridge clearwaterforest x86-64 x86-64-v2 x86-64-v3 x86-64-v4 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 lujiazui yongfeng shijidadao k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 znver4 znver5 btver1 btver2 native
+        make[1]: *** [CMakeFiles/cmTC_f9974.dir/build.make:81：CMakeFiles/cmTC_f9974.dir/testsse2neon.c.o] 错误 1
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make: *** [Makefile:134：cmTC_f9974/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "find-v1"
+    backtrace:
+      - "libs/terraphast/CMakeLists.txt:231 (find_program)"
+    mode: "program"
+    variable: "CLANG_TIDY_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-tidy"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/bin/clang-tidy.com"
+      - "/usr/local/bin/clang-tidy.exe"
+      - "/usr/local/bin/clang-tidy"
+      - "/usr/bin/clang-tidy.com"
+      - "/usr/bin/clang-tidy.exe"
+      - "/usr/bin/clang-tidy"
+      - "/bin/clang-tidy.com"
+      - "/bin/clang-tidy.exe"
+      - "/bin/clang-tidy"
+      - "/opt/bin/clang-tidy.com"
+      - "/opt/bin/clang-tidy.exe"
+      - "/opt/bin/clang-tidy"
+      - "/c/Windows/System32/clang-tidy.com"
+      - "/c/Windows/System32/clang-tidy.exe"
+      - "/c/Windows/System32/clang-tidy"
+      - "/c/Windows/clang-tidy.com"
+      - "/c/Windows/clang-tidy.exe"
+      - "/c/Windows/clang-tidy"
+      - "/c/Windows/System32/Wbem/clang-tidy.com"
+      - "/c/Windows/System32/Wbem/clang-tidy.exe"
+      - "/c/Windows/System32/Wbem/clang-tidy"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/clang-tidy.com"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/clang-tidy.exe"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/clang-tidy"
+      - "/usr/bin/site_perl/clang-tidy.com"
+      - "/usr/bin/site_perl/clang-tidy.exe"
+      - "/usr/bin/site_perl/clang-tidy"
+      - "/usr/bin/vendor_perl/clang-tidy.com"
+      - "/usr/bin/vendor_perl/clang-tidy.exe"
+      - "/usr/bin/vendor_perl/clang-tidy"
+      - "/usr/bin/core_perl/clang-tidy.com"
+      - "/usr/bin/core_perl/clang-tidy.exe"
+      - "/usr/bin/core_perl/clang-tidy"
+      - "/usr/local/bin/clang-tidy.com"
+      - "/usr/local/bin/clang-tidy.exe"
+      - "/usr/local/bin/clang-tidy"
+      - "/usr/local/sbin/clang-tidy.com"
+      - "/usr/local/sbin/clang-tidy.exe"
+      - "/usr/local/sbin/clang-tidy"
+      - "/usr/local/clang-tidy.com"
+      - "/usr/local/clang-tidy.exe"
+      - "/usr/local/clang-tidy"
+      - "/usr/bin/clang-tidy.com"
+      - "/usr/bin/clang-tidy.exe"
+      - "/usr/bin/clang-tidy"
+      - "/usr/sbin/clang-tidy.com"
+      - "/usr/sbin/clang-tidy.exe"
+      - "/usr/sbin/clang-tidy"
+      - "/usr/clang-tidy.com"
+      - "/usr/clang-tidy.exe"
+      - "/usr/clang-tidy"
+      - "/bin/clang-tidy.com"
+      - "/bin/clang-tidy.exe"
+      - "/bin/clang-tidy"
+      - "/sbin/clang-tidy.com"
+      - "/sbin/clang-tidy.exe"
+      - "/sbin/clang-tidy"
+      - "/usr/X11R6/bin/clang-tidy.com"
+      - "/usr/X11R6/bin/clang-tidy.exe"
+      - "/usr/X11R6/bin/clang-tidy"
+      - "/usr/X11R6/sbin/clang-tidy.com"
+      - "/usr/X11R6/sbin/clang-tidy.exe"
+      - "/usr/X11R6/sbin/clang-tidy"
+      - "/usr/X11R6/clang-tidy.com"
+      - "/usr/X11R6/clang-tidy.exe"
+      - "/usr/X11R6/clang-tidy"
+      - "/usr/pkg/bin/clang-tidy.com"
+      - "/usr/pkg/bin/clang-tidy.exe"
+      - "/usr/pkg/bin/clang-tidy"
+      - "/usr/pkg/sbin/clang-tidy.com"
+      - "/usr/pkg/sbin/clang-tidy.exe"
+      - "/usr/pkg/sbin/clang-tidy"
+      - "/usr/pkg/clang-tidy.com"
+      - "/usr/pkg/clang-tidy.exe"
+      - "/usr/pkg/clang-tidy"
+      - "/opt/bin/clang-tidy.com"
+      - "/opt/bin/clang-tidy.exe"
+      - "/opt/bin/clang-tidy"
+      - "/opt/sbin/clang-tidy.com"
+      - "/opt/sbin/clang-tidy.exe"
+      - "/opt/sbin/clang-tidy"
+      - "/opt/clang-tidy.com"
+      - "/opt/clang-tidy.exe"
+      - "/opt/clang-tidy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:337 (find_package)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    name: "GTest"
+    configs:
+      -
+        filename: "GTestConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gtest-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "GTest"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/e/Codes/raxml-ng/build/CMakeFiles/pkgRedirects/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/e/Codes/raxml-ng/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/Wbem/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/Wbem/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/WindowsPowerShell/v1.0/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/c/Windows/System32/WindowsPowerShell/v1.0/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:384 (find_path)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "path"
+    variable: "GTEST_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest/gtest.h"
+    candidate_directories:
+      - "/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/opt/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/w32api/"
+    searched_directories:
+      - "/include/gtest/gtest.h"
+      - "/usr/local/bin/gtest/gtest.h"
+      - "/usr/bin/gtest/gtest.h"
+      - "/bin/gtest/gtest.h"
+      - "/opt/bin/gtest/gtest.h"
+      - "/c/Windows/System32/gtest/gtest.h"
+      - "/c/Windows/gtest/gtest.h"
+      - "/c/Windows/System32/Wbem/gtest/gtest.h"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/gtest/gtest.h"
+      - "/usr/bin/site_perl/gtest/gtest.h"
+      - "/usr/bin/vendor_perl/gtest/gtest.h"
+      - "/usr/bin/core_perl/gtest/gtest.h"
+      - "/usr/local/include/gtest/gtest.h"
+      - "/usr/local/gtest/gtest.h"
+      - "/usr/include/gtest/gtest.h"
+      - "/usr/gtest/gtest.h"
+      - "/include/gtest/gtest.h"
+      - "/usr/X11R6/include/gtest/gtest.h"
+      - "/usr/X11R6/gtest/gtest.h"
+      - "/usr/pkg/include/gtest/gtest.h"
+      - "/usr/pkg/gtest/gtest.h"
+      - "/opt/include/gtest/gtest.h"
+      - "/opt/gtest/gtest.h"
+      - "/usr/include/X11/gtest/gtest.h"
+      - "/usr/include/w32api/gtest/gtest.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+        - "/usr/include/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:403 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GTEST_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:404 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GTEST_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtestd"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:405 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GTEST_MAIN_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest_main"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:406 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GTEST_MAIN_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest_maind"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:407 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GMOCK_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:408 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GMOCK_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmockd"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:409 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GMOCK_MAIN_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock_main"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:254 (find_library)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:410 (__gtest_find_library)"
+      - "test/src/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "GMOCK_MAIN_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock_maind"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    searched_directories:
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/usr/lib/w32api/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/opt/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+        - "/usr/lib/w32api"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:118 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_b097a/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_b097a.dir/build.make CMakeFiles/cmTC_b097a.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_b097a.dir/testsse.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -msse3 -o CMakeFiles/cmTC_b097a.dir/testsse.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse.c
+        Linking C executable cmTC_b097a.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b097a.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_b097a.dir/testsse.c.o -o cmTC_b097a.exe -Wl,--out-implib,libcmTC_b097a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:130 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_5d575/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_5d575.dir/build.make CMakeFiles/cmTC_5d575.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_5d575.dir/testavx.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mavx -o CMakeFiles/cmTC_5d575.dir/testavx.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx.c
+        Linking C executable cmTC_5d575.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5d575.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_5d575.dir/testavx.c.o -o cmTC_5d575.exe -Wl,--out-implib,libcmTC_5d575.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:142 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_8c839/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_8c839.dir/build.make CMakeFiles/cmTC_8c839.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_8c839.dir/testavx2.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mfma -mavx2 -o CMakeFiles/cmTC_8c839.dir/testavx2.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx2.c
+        Linking C executable cmTC_8c839.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8c839.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_8c839.dir/testavx2.c.o -o cmTC_8c839.exe -Wl,--out-implib,libcmTC_8c839.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:154 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_abd3b/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_abd3b.dir/build.make CMakeFiles/cmTC_abd3b.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_abd3b.dir/testsse2neon.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -march=armv8-a+fp+simd -I/e/Codes/raxml-ng/libs/pll-modules/libs/libpll/src -o CMakeFiles/cmTC_abd3b.dir/testsse2neon.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse2neon.c
+        cc1: error: bad value 'armv8-a+fp+simd' for '-march=' switch
+        cc1: note: valid arguments to '-march=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids emeraldrapids alderlake raptorlake meteorlake graniterapids graniterapids-d arrowlake arrowlake-s lunarlake pantherlake diamondrapids bonnell atom silvermont slm goldmont goldmont-plus tremont gracemont sierraforest grandridge clearwaterforest x86-64 x86-64-v2 x86-64-v3 x86-64-v4 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 lujiazui yongfeng shijidadao k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 znver4 znver5 btver1 btver2 native
+        make[2]: *** [CMakeFiles/cmTC_abd3b.dir/build.make:81：CMakeFiles/cmTC_abd3b.dir/testsse2neon.c.o] 错误 1
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: *** [Makefile:134：cmTC_abd3b/fast] 错误 2
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:118 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_df54d/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_df54d.dir/build.make CMakeFiles/cmTC_df54d.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_df54d.dir/testsse.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -msse3 -o CMakeFiles/cmTC_df54d.dir/testsse.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse.c
+        Linking C executable cmTC_df54d.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_df54d.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_df54d.dir/testsse.c.o -o cmTC_df54d.exe -Wl,--out-implib,libcmTC_df54d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:130 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_18243/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_18243.dir/build.make CMakeFiles/cmTC_18243.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_18243.dir/testavx.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mavx -o CMakeFiles/cmTC_18243.dir/testavx.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx.c
+        Linking C executable cmTC_18243.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_18243.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_18243.dir/testavx.c.o -o cmTC_18243.exe -Wl,--out-implib,libcmTC_18243.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:142 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_1ed33/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_1ed33.dir/build.make CMakeFiles/cmTC_1ed33.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_1ed33.dir/testavx2.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -mfma -mavx2 -o CMakeFiles/cmTC_1ed33.dir/testavx2.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testavx2.c
+        Linking C executable cmTC_1ed33.exe
+        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1ed33.dir/link.txt --verbose=1
+        /usr/bin/cc.exe  -D_RAXML_PTHREADS -pthread  -Wl,--enable-auto-import  CMakeFiles/cmTC_1ed33.dir/testavx2.c.o -o cmTC_1ed33.exe -Wl,--out-implib,libcmTC_1ed33.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:154 (TRY_COMPILE)"
+    directories:
+      source: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -D_RAXML_PTHREADS -pthread"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_b2445/fast
+        make[1]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        /usr/bin/make  -f CMakeFiles/cmTC_b2445.dir/build.make CMakeFiles/cmTC_b2445.dir/build
+        make[2]: 进入目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_b2445.dir/testsse2neon.c.o
+        /usr/bin/cc.exe   -D_RAXML_PTHREADS -pthread    -march=armv8-a+fp+simd -I/e/Codes/raxml-ng/libs/pll-modules/libs/libpll/src -o CMakeFiles/cmTC_b2445.dir/testsse2neon.c.o -c /e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/testsse2neon.c
+        cc1: error: bad value 'armv8-a+fp+simd' for '-march=' switch
+        cc1: note: valid arguments to '-march=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids emeraldrapids alderlake raptorlake meteorlake graniterapids graniterapids-d arrowlake arrowlake-s lunarlake pantherlake diamondrapids bonnell atom silvermont slm goldmont goldmont-plus tremont gracemont sierraforest grandridge clearwaterforest x86-64 x86-64-v2 x86-64-v3 x86-64-v4 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 lujiazui yongfeng shijidadao k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 znver4 znver5 btver1 btver2 native
+        make[2]: *** [CMakeFiles/cmTC_b2445.dir/build.make:81：CMakeFiles/cmTC_b2445.dir/testsse2neon.c.o] 错误 1
+        make[2]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        make[1]: *** [Makefile:134：cmTC_b2445/fast] 错误 2
+        make[1]: 离开目录“/e/Codes/raxml-ng/build/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp”
+        
+      exitCode: 2
+...

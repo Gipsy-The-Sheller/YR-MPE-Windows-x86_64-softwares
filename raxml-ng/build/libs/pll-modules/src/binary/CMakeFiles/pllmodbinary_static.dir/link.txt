@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libpllmodbinary.a CMakeFiles/pllmodbinary_obj.dir/__/pllmod_common.c.o CMakeFiles/pllmodbinary_obj.dir/binary_io_operations.c.o CMakeFiles/pllmodbinary_obj.dir/pll_binary.c.o
+/usr/bin/ranlib.exe libpllmodbinary.a

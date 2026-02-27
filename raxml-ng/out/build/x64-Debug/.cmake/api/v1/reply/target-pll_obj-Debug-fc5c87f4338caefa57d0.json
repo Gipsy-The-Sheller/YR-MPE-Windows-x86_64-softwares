@@ -1,0 +1,865 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./compress.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./parse_utree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./lex_utree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./parse_rtree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./lex_rtree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_derivatives.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_likelihood.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_partials.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_pmatrix.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./derivatives.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./fasta.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./fast_parsimony.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./gamma.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./hardware.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./likelihood.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./list.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./maps.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./models.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./output.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./parsimony.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./partials.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./phylip.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./pll.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./random.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./repeats.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./rtree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./stepwise.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./utree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./utree_moves.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./utree_svg.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_derivatives_sse.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_likelihood_sse.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_partials_sse.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_pmatrix_sse.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./fast_parsimony_sse.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_derivatives_avx.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_likelihood_avx.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_partials_avx.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_pmatrix_avx.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./fast_parsimony_avx.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_derivatives_avx2.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_likelihood_avx2.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_partials_avx2.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./core_pmatrix_avx2.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/./fast_parsimony_avx2.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/libs/libpll/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -O3 -fPIC  -O3 -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_AVX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AVX2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_X86INTRIN_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -O3 -fPIC  -O3 -g"
+				},
+				{
+					"fragment" : "-Wno-sign-compare"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_AVX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AVX2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_X86INTRIN_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				3,
+				6
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -O3 -fPIC  -O3 -g"
+				},
+				{
+					"fragment" : "-msse3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_AVX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AVX2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_X86INTRIN_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				32,
+				33,
+				34,
+				35,
+				36
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -O3 -fPIC  -O3 -g"
+				},
+				{
+					"fragment" : "-mavx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_AVX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AVX2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_X86INTRIN_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -O3 -fPIC  -O3 -g"
+				},
+				{
+					"fragment" : "-mfma -mavx2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_AVX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AVX2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE3"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_X86INTRIN_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		}
+	],
+	"id" : "pll_obj::@e9b68fdb6704d494331d",
+	"name" : "pll_obj",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/libs/libpll/src",
+		"source" : "libs/pll-modules/libs/libpll/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				5
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				47,
+				48,
+				49,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_utree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_utree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/lex_utree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_rtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_rtree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/lex_rtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/core_derivatives.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/core_likelihood.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/core_partials.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/core_pmatrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/derivatives.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/fasta.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/fast_parsimony.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/gamma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/hardware.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/likelihood.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/maps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/models.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/output.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/parsimony.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/partials.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/phylip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/random.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/repeats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/rtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/stepwise.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/utree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/utree_moves.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/libs/libpll/src/utree_svg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/pll-modules/libs/libpll/src/core_derivatives_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/pll-modules/libs/libpll/src/core_likelihood_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/pll-modules/libs/libpll/src/core_partials_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/pll-modules/libs/libpll/src/core_pmatrix_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/pll-modules/libs/libpll/src/fast_parsimony_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "libs/pll-modules/libs/libpll/src/core_derivatives_avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "libs/pll-modules/libs/libpll/src/core_likelihood_avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "libs/pll-modules/libs/libpll/src/core_partials_avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "libs/pll-modules/libs/libpll/src/core_pmatrix_avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "libs/pll-modules/libs/libpll/src/fast_parsimony_avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "libs/pll-modules/libs/libpll/src/core_derivatives_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "libs/pll-modules/libs/libpll/src/core_likelihood_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "libs/pll-modules/libs/libpll/src/core_partials_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "libs/pll-modules/libs/libpll/src/core_pmatrix_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "libs/pll-modules/libs/libpll/src/fast_parsimony_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_utree.c.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/lex_utree.c.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/parse_rtree.c.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/libs/libpll/src/lex_rtree.c.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

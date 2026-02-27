@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/libs/libpll/src",
+		"source" : "libs/pll-modules/libs/libpll/src"
+	}
+}

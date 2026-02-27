@@ -1,0 +1,252 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./consensus.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./pll_tree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./rtree_operations.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./tree_hashtable.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./treeinfo.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./utree_distances.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./tbe_functions.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./utree_operations.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./utree_constraint.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./split_utree.c.obj"
+		},
+		{
+			"path" : "libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/./lex_split.c.obj"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_pllmodules_lib",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/CMakeLists.txt",
+			"libs/pll-modules/src/tree/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread -Wall -Wsign-compare -D_GNU_SOURCE -std=c99 -O3 -O3 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Codes/raxml-ng/libs/pll-modules/src/tree"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11
+			]
+		}
+	],
+	"id" : "pllmodtree_obj::@b638ae98623f4843a590",
+	"name" : "pllmodtree_obj",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/src/tree",
+		"source" : "libs/pll-modules/src/tree"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/consensus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/pll_tree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/rtree_operations.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/tree_hashtable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/treeinfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/utree_distances.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/tbe_functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/utree_operations.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/pll-modules/src/tree/utree_constraint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/split_utree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/split_utree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/lex_split.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/split_utree.c.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/lex_split.c.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

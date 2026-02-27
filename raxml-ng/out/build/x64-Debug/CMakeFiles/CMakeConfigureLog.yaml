@@ -1,0 +1,638 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.42.34435 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3h67bm"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3h67bm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3h67bm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5a6de
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5a6de.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_5a6de.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a6de.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a6de.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_5a6de.exe /implib:cmTC_5a6de.lib /pdb:cmTC_5a6de.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-71zcpa"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-71zcpa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-71zcpa'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e6862
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e6862.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_e6862.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e6862.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e6862.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_e6862.exe /implib:cmTC_e6862.lib /pdb:cmTC_e6862.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:47 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:120 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-670akj"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-670akj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-670akj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dd1f6
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dd1f6.dir\\src.c.obj /FdCMakeFiles\\cmTC_dd1f6.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-670akj\\src.c
+        FAILED: CMakeFiles/cmTC_dd1f6.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dd1f6.dir\\src.c.obj /FdCMakeFiles\\cmTC_dd1f6.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-670akj\\src.c
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-670akj\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:120 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dx54ap"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dx54ap"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dx54ap'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_94def
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_94def.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_94def.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dx54ap\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94def.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94def.dir\\CheckFunctionExists.c.obj  /out:cmTC_94def.exe /implib:cmTC_94def.lib /pdb:cmTC_94def.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_94def.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94def.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94def.dir\\CheckFunctionExists.c.obj  /out:cmTC_94def.exe /implib:cmTC_94def.lib /pdb:cmTC_94def.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94def.dir\\CheckFunctionExists.c.obj /out:cmTC_94def.exe /implib:cmTC_94def.lib /pdb:cmTC_94def.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_94def.dir/intermediate.manifest CMakeFiles\\cmTC_94def.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:120 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wcp583"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wcp583"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wcp583'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_62302
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_62302.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_62302.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wcp583\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_62302.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62302.dir\\CheckFunctionExists.c.obj  /out:cmTC_62302.exe /implib:cmTC_62302.lib /pdb:cmTC_62302.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_62302.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_62302.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62302.dir\\CheckFunctionExists.c.obj  /out:cmTC_62302.exe /implib:cmTC_62302.lib /pdb:cmTC_62302.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62302.dir\\CheckFunctionExists.c.obj /out:cmTC_62302.exe /implib:cmTC_62302.lib /pdb:cmTC_62302.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_62302.dir/intermediate.manifest CMakeFiles\\cmTC_62302.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:122 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_89ca5
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -msse3 /showIncludes /FoCMakeFiles\\cmTC_89ca5.dir\\testsse.c.obj /FdCMakeFiles\\cmTC_89ca5.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-msse3”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_89ca5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_89ca5.dir\\testsse.c.obj  /out:cmTC_89ca5.exe /implib:cmTC_89ca5.lib /pdb:cmTC_89ca5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:134 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2eca2
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mavx /showIncludes /FoCMakeFiles\\cmTC_2eca2.dir\\testavx.c.obj /FdCMakeFiles\\cmTC_2eca2.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2eca2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2eca2.dir\\testavx.c.obj  /out:cmTC_2eca2.exe /implib:cmTC_2eca2.lib /pdb:cmTC_2eca2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:146 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f2dca
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mfma -mavx2 /showIncludes /FoCMakeFiles\\cmTC_f2dca.dir\\testavx2.c.obj /FdCMakeFiles\\cmTC_f2dca.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mfma”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx2”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c(2) : warning C4700: 使用了未初始化的局部变量“a”
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f2dca.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f2dca.dir\\testavx2.c.obj  /out:cmTC_f2dca.exe /implib:cmTC_f2dca.lib /pdb:cmTC_f2dca.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:158 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dd8e0
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_dd8e0.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_dd8e0.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        FAILED: CMakeFiles/cmTC_dd8e0.dir/testsse2neon.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_dd8e0.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_dd8e0.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-march=armv8-a+fp+simd”
+        E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src\\sse2neon.h(83): fatal error C1021: 无效的预处理器命令“warning”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:122 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0ab8a
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -msse3 /showIncludes /FoCMakeFiles\\cmTC_0ab8a.dir\\testsse.c.obj /FdCMakeFiles\\cmTC_0ab8a.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-msse3”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0ab8a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0ab8a.dir\\testsse.c.obj  /out:cmTC_0ab8a.exe /implib:cmTC_0ab8a.lib /pdb:cmTC_0ab8a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:134 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d8442
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mavx /showIncludes /FoCMakeFiles\\cmTC_d8442.dir\\testavx.c.obj /FdCMakeFiles\\cmTC_d8442.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d8442.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d8442.dir\\testavx.c.obj  /out:cmTC_d8442.exe /implib:cmTC_d8442.lib /pdb:cmTC_d8442.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:146 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_54f63
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mfma -mavx2 /showIncludes /FoCMakeFiles\\cmTC_54f63.dir\\testavx2.c.obj /FdCMakeFiles\\cmTC_54f63.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mfma”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx2”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c(2) : warning C4700: 使用了未初始化的局部变量“a”
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_54f63.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_54f63.dir\\testavx2.c.obj  /out:cmTC_54f63.exe /implib:cmTC_54f63.lib /pdb:cmTC_54f63.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:158 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_97958
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_97958.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_97958.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        FAILED: CMakeFiles/cmTC_97958.dir/testsse2neon.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_97958.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_97958.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-march=armv8-a+fp+simd”
+        E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src\\sse2neon.h(83): fatal error C1021: 无效的预处理器命令“warning”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:122 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3943c
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -msse3 /showIncludes /FoCMakeFiles\\cmTC_3943c.dir\\testsse.c.obj /FdCMakeFiles\\cmTC_3943c.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-msse3”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3943c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3943c.dir\\testsse.c.obj  /out:cmTC_3943c.exe /implib:cmTC_3943c.lib /pdb:cmTC_3943c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:134 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_af135
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mavx /showIncludes /FoCMakeFiles\\cmTC_af135.dir\\testavx.c.obj /FdCMakeFiles\\cmTC_af135.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx.c(2): warning C4101: “a”: 未引用的局部变量
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_af135.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_af135.dir\\testavx.c.obj  /out:cmTC_af135.exe /implib:cmTC_af135.lib /pdb:cmTC_af135.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:146 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "AVX2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f9f92
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -mfma -mavx2 /showIncludes /FoCMakeFiles\\cmTC_f9f92.dir\\testavx2.c.obj /FdCMakeFiles\\cmTC_f9f92.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-mfma”
+        cl: 命令行 warning D9002 :忽略未知选项“-mavx2”
+        E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testavx2.c(2) : warning C4700: 使用了未初始化的局部变量“a”
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f9f92.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f9f92.dir\\testavx2.c.obj  /out:cmTC_f9f92.exe /implib:cmTC_f9f92.lib /pdb:cmTC_f9f92.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/pll-modules/libs/libpll/src/CMakeLists.txt:158 (TRY_COMPILE)"
+    directories:
+      source: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+      binary: "E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "SSE2NEON_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Codes/raxml-ng/out/build/x64-Debug/libs/pll-modules/libs/libpll/src/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_757d7
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_757d7.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_757d7.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        FAILED: CMakeFiles/cmTC_757d7.dir/testsse2neon.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -D_RAXML_PTHREADS -pthread  -O3 -g   -march=armv8-a+fp+simd -IE:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src /showIncludes /FoCMakeFiles\\cmTC_757d7.dir\\testsse2neon.c.obj /FdCMakeFiles\\cmTC_757d7.dir\\ /FS -c E:\\Codes\\raxml-ng\\out\\build\\x64-Debug\\libs\\pll-modules\\libs\\libpll\\src\\testsse2neon.c
+        cl: 命令行 warning D9002 :忽略未知选项“-pthread”
+        cl: 命令行 warning D9002 :忽略未知选项“-O3”
+        cl: 命令行 warning D9002 :忽略未知选项“-g”
+        cl: 命令行 warning D9002 :忽略未知选项“-march=armv8-a+fp+simd”
+        E:/Codes/raxml-ng/libs/pll-modules/libs/libpll/src\\sse2neon.h(83): fatal error C1021: 无效的预处理器命令“warning”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

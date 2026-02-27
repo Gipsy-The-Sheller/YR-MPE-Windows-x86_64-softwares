@@ -1,0 +1,165 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/pll-modules/src/tree/pllmodtree.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_pllmodules_lib",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"libs/pll-modules/CMakeLists.txt",
+			"libs/pll-modules/src/tree/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "pll_static::@e9b68fdb6704d494331d"
+		},
+		{
+			"id" : "pllmodtree_obj::@b638ae98623f4843a590"
+		}
+	],
+	"id" : "pllmodtree_static::@b638ae98623f4843a590",
+	"name" : "pllmodtree_static",
+	"nameOnDisk" : "pllmodtree.lib",
+	"paths" : 
+	{
+		"build" : "libs/pll-modules/src/tree",
+		"source" : "libs/pll-modules/src/tree"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/consensus.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/pll_tree.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/rtree_operations.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/tree_hashtable.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/treeinfo.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/utree_distances.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/tbe_functions.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/utree_operations.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/utree_constraint.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/split_utree.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/libs/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/lex_split.c.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
